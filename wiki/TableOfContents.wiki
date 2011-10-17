@@ -2,4 +2,4 @@
 
   * Models
     * [Ant]
-    * [Area Coverage]
+    * [AreaCoverage Area Coverage]
