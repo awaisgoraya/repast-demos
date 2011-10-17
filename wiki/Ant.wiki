@@ -1,20 +1,18 @@
 #summary Ant Model.
 #sidebar TableOfContents
 
-= Contents = 
-
-<wiki:toc max_depth="2" />
-
 ---------
 
 = Summary = 
 
  * Model        : Ant
  * Platform     : [RepastSReLogo RepastS ReLogo]
- * Source Code  : https://cscs-repast-demos.googlecode.com/svn/mudit/Ant/
- * Documentation: http://code.google.com/p/cscs-repast-demos/wiki/AntDescription  
- * Mentor       : Dr. Eric Tatara
+ * Source Code  : ????  
  * Author       : [Mudit Mudit Raj Gupta]
+
+= Contents = 
+
+<wiki:toc max_depth="2" />
 
 ---------
 
@@ -26,7 +24,7 @@ This is a bio-inspired model. The model is a simulation of Ant and their behavio
 Ant only move a given distance away from their nest. This is because they have to come back to their nest. The ant return to their nest depending on the nest smell, they do so when the nest scent starts dying. If an ant finds food, it carries it back to its nest leaving a chemical trail which evaporates with time. The chemical is also diffused in the Moore's neighborhood, although the "level" is less. If an ant sniffs Chemical it moves in the direction where the chemical is for a large number of time. The ants reach the food pile, following the chemical and finally the come back to the nest reinforcing the chemical 
 trail.
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/Ants/Ant%28main%29.JPG
+https://repast-demos.googlecode.com/svn/wiki/ant/main.jpg
 
 ---------
 
@@ -34,7 +32,7 @@ https://cscs-repast-demos.googlecode.com/svn/wiki/Ants/Ant%28main%29.JPG
 
 The user can control the population of the ants and the amount of food in each food pile. Standard Setup, Go and Go Once Options are also present. User Panel looks like this :
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/Ants/Ant%28panel%29.JPG
+https://repast-demos.googlecode.com/svn/wiki/ant/panel.jpg
 
 
 ---------
@@ -53,7 +51,7 @@ Model Outputter is also added. The added model outputter is comma separated valu
 
 Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Food" (in each pile) on y-axis and "Time" on x-axis is plotted. It is an overlay of the graph for each food pile.
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/Ants/Ants%28pllot%29.png
+https://repast-demos.googlecode.com/svn/wiki/ant/plot.png
 
 For the plot it can be concluded that the ants exploit the food source which is closest to the nest first. _Check with many test runs_
 
