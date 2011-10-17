@@ -1,14 +1,14 @@
 #summary Ant Model.
 #sidebar TableOfContents
 
----------
-
 = Summary = 
 
  * Model        : Ant
  * Platform     : [RepastSReLogo RepastS ReLogo]
  * Source Code  : ????  
  * Author       : [Mudit Mudit Raj Gupta]
+
+---------
 
 = Contents = 
 
