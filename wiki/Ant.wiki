@@ -74,6 +74,10 @@ https://repast-demos.googlecode.com/svn/wiki/ant/plot.png
 
 For the plot it can be concluded that the ants exploit the food source which is closest to the nest first. _Check with many test runs_
 
+===Variable Evaporation and Diffusion Rates===
+
+A slider can be added for giving the control for controlling the rate of evaporation of chemical tails. A slider controlling the spread of the neighboring area, till where the chemical is spread would also be useful.
+
 ---------
 
 ==Algorithm and Implementation==
@@ -270,22 +274,11 @@ The variables which are declared as @Diffusible in the patch can be accessed in 
 
 ---------
 
-=2. User Control=
 
-
-
-=5. Extending =
-
-==5.1 Variable Evaporation and Diffusion Rates==
-
-A slider can be added for giving the control for controlling the rate of evaporation of chemical tails. A slider controlling the spread of the neighboring area, till where the chemical is spread would also be useful.
-
-==5.2 Changing the Ant Behavior==
-
-The ants presently move in the direction where food will be found first _(if they sniff the chemical)_. Change this behavior. Make the ants follow the ants which are carrying food. The [FollowTheLeader] model might be useful. 
+ 
 ---------
 
-=6. Applications=
+=Applications=
 
 ==6.1 Data Routing==
 
