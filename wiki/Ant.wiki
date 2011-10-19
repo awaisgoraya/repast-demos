@@ -11,6 +11,8 @@
 
 ---------
 
+https://repast-demos.googlecode.com/svn/wiki/ant/main.jpg
+
 = Contents = 
 
 <wiki:toc max_depth="2" />
@@ -23,11 +25,11 @@ This is a bio-inspired model. The model is a simulation of Ant and their behavio
 
 The first paper which used ant behavior was published in the year 1996 was :
 
-  "Ant System: Optimization by a Colony of Cooperating Agents"*, Marco Dorigo, Vittorio Maniezzo and Alberto Colorni, IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS-PART B CYBERNETICS, VOL 26, NO 1, FEBRUARY 1996, 1083-4419, IEEE 1996
+  "Ant System: Optimization by a Colony of Cooperating Agents", Marco Dorigo, Vittorio Maniezzo and Alberto Colorni, IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS-PART B CYBERNETICS, VOL 26, NO 1, FEBRUARY 1996, 1083-4419, IEEE 1996
 
 There where many papers like this since then. An article which provides a comprehensive detail of the algorithm is :
 
-  "Ant Colony Optimization - Artificial Ants as a Computation Intelligence Technique"* - Marco Dorigo, Mauro Birattari and Thomas Stutzle, IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, NOV 2006, 1556-603X/06/, IEEE 2006 
+  "Ant Colony Optimization - Artificial Ants as a Computation Intelligence Technique" - Marco Dorigo, Mauro Birattari and Thomas Stutzle, IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, NOV 2006, 1556-603X/06/, IEEE 2006 
 
 The model seeks inspiration form the real world ants. Although it is not a replica and is optimized at places. Please view the description section for complete details. 
 
@@ -35,11 +37,11 @@ The model seeks inspiration form the real world ants. Although it is not a repli
 
 Ants are social insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera. Ants evolved from wasp-like ancestors in the mid-Cretaceous period between 110 and 130 million years ago and diversified after the rise of flowering plants.[5] More than 12,500 out of an estimated total of 22,000 species have been classified.
 
-Ants communicate with each other using pheromones. Like other insects, ants perceive smells with their long, thin and mobile antennae. The paired antennae provide information about the direction and intensity of scents. Ants use pheromones for more than just making trails. A crushed ant emits an alarm pheromone that sends nearby ants into an attack frenzy and attracts more ants from further away. Several ant species even use "propaganda pheromones" to confuse enemy ants and make them fight among themselves.[5]  
+Ants communicate with each other using pheromones. Like other insects, ants perceive smells with their long, thin and mobile antennae. The paired antennae provide information about the direction and intensity of scents. Ants use pheromones for more than just making trails. A crushed ant emits an alarm pheromone that sends nearby ants into an attack frenzy and attracts more ants from further away. Several ant species even use "propaganda pheromones" to confuse enemy ants and make them fight among themselves. 
 
 ==Ant and it's search for food==
 
-Since most ants live on the ground, they use the soil surface to leave pheromone trails that can be followed by other ants. In species that forage in groups, a forager that finds food marks a trail on the way back to the colony; this trail is followed by other ants, these ants then reinforce the trail when they head back with food to the colony. When the food source is exhausted, no new trails are marked by returning ants and the scent slowly dissipates. This behavior helps ants deal with changes in their environment. For instance, when an established path to a food source is blocked by an obstacle, the foragers leave the path to explore new routes.[5]
+Since most ants live on the ground, they use the soil surface to leave pheromone trails that can be followed by other ants. In species that forage in groups, a forager that finds food marks a trail on the way back to the colony; this trail is followed by other ants, these ants then reinforce the trail when they head back with food to the colony. When the food source is exhausted, no new trails are marked by returning ants and the scent slowly dissipates. This behavior helps ants deal with changes in their environment. For instance, when an established path to a food source is blocked by an obstacle, the foragers leave the path to explore new routes.
 
 -------
 
@@ -49,6 +51,30 @@ The overall ant colony behavior is a cumulative behavior of all the ants. These 
 
 Ant only move a given distance away from their nest. This is because they have to come back to their nest. The ant return to their nest depending on the nest smell, they do so when the nest scent starts dying. If the ants find food, they carry it back to their nest leaving a chemical trail which evaporates with time. The chemical is also diffused in the Moore's neighborhood, although the "level" is less.
 If an ant sniffs Active Chemical it moves in the direction where the chemical is for a large number of time. This behavior is a deviation from the actual ants. They normally follow the chemical depending on level, but these computational ants move towards food not nest. The ants reach the food pile, following the chemical and finally the come back to the nest reinforcing the chemical trail.
+
+==Running the Model==
+
+The user can control the population of the ants and the amount of food in each food pile. Standard Setup, Go and Go Once Options are also present. User Panel looks like this :
+
+https://repast-demos.googlecode.com/svn/wiki/ant/panel.jpg
+
+===Output===
+
+Model Outputter is also added. The added model outputter is comma separated values of "Time" and "Food" (in each pile). One of the sample output file can be checked [https://code.google.com/p/cscs-repast-demos/source/browse/wiki/Ants/Model%20Output.txt here]
+
+*Note:* 
+
+ # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
+
+===Analysis====
+
+Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Food" (in each pile) on y-axis and "Time" on x-axis is plotted. It is an overlay of the graph for each food pile.
+
+https://repast-demos.googlecode.com/svn/wiki/ant/plot.png
+
+For the plot it can be concluded that the ants exploit the food source which is closest to the nest first. _Check with many test runs_
+
+---------
 
 ==Algorithm and Implementation==
 
@@ -242,38 +268,11 @@ The variables which are declared as @Diffusible in the patch can be accessed in 
 
  # http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html 
 
-https://repast-demos.googlecode.com/svn/wiki/ant/main.jpg
-
 ---------
 
 =2. User Control=
 
-The user can control the population of the ants and the amount of food in each food pile. Standard Setup, Go and Go Once Options are also present. User Panel looks like this :
 
-https://repast-demos.googlecode.com/svn/wiki/ant/panel.jpg
-
-
----------
-
-=3. Output=
-
-Model Outputter is also added. The added model outputter is comma separated values of "Time" and "Food" (in each pile). One of the sample output file can be checked [https://code.google.com/p/cscs-repast-demos/source/browse/wiki/Ants/Model%20Output.txt here]
-
-*Note:* 
-
- # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
-
----------
-
-=4. Analysis=
-
-Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Food" (in each pile) on y-axis and "Time" on x-axis is plotted. It is an overlay of the graph for each food pile.
-
-https://repast-demos.googlecode.com/svn/wiki/ant/plot.png
-
-For the plot it can be concluded that the ants exploit the food source which is closest to the nest first. _Check with many test runs_
-
----------
 
 =5. Extending =
 
