@@ -1,0 +1,14 @@
+#summary Fire Model.
+#sidebar TableOfContents
+
+= Summary = 
+
+ * Model        : Fire Model
+ * Platform     : RepastS Java
+ * Version(s)	: Repast Simphony 2.0
+ * Download     : http://repast-demos.googlecode.com/files/Fire-1.0.zip
+ * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Fire
+ * Documentation : This Wiki Page & PDF in project docs directory
+ * Author       : Grace Lin
+ 
+--------
