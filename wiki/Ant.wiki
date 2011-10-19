@@ -45,7 +45,7 @@ Since most ants live on the ground, they use the soil surface to leave pheromone
 
 -------
 
-=Description=
+=Model Description=
 
 The overall ant colony behavior is a cumulative behavior of all the ants. These ants follow a set of simple rules and depending of these rules they move in search of food. 
 
@@ -64,7 +64,7 @@ Model Outputter is also added. The added model outputter is comma separated valu
 
 *Note:* 
 
- # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
+  This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
 
 ===Analysis====
 
@@ -259,35 +259,25 @@ The variables which are declared as @Diffusible in the patch can be accessed in 
 =References=
 
  # "Ant System: Optimization by a Colony of Cooperating Agents"*, Marco Dorigo, Vittorio Maniezzo and Alberto Colorni, IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS-PART B CYBERNETICS, VOL 26, NO 1, FEBRUARY 1996, 1083-4419, IEEE 1996
-
  # "Ant Colony Optimization - Artificial Ants as a Computation Intelligence Technique"* - Marco Dorigo, Mauro Birattari and Thomas Stutzle, IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, NOV 2006, 1556-603X/06/, IEEE 2006 
-
  # *"A Multi-Agent Model to simulate Intelligent Wireless Sensor Networks"* - Diana Carolina Resprepo, Alcides de J. Montoya and Demetrio Arturo Ovalle. 384978-1-4244-7173-7, IEEE 2010
-
  # http://ccl.northwestern.edu/netlogo/models/Ants
-
  # http://en.wikipedia.org/wiki/Ant#Communication
-
  # http://en.wikipedia.org/wiki/Ant_colony_optimization   
-
  # http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html 
 
 ---------
 
-
- 
----------
-
 =Applications=
 
-==6.1 Data Routing==
+==Data Routing==
 
 Ant behavior or algorithms inspired by such a behavior like Ane Colony Oprimization are used in data routing between nodes. Although they face a problem of high overhead delay in case of ACO application in Mobile Wireless Sensor networks data routing.
 
-==6.2 Multi variable Optimizations==
+==Multi variable Optimizations==
 
 Algorithms inspired from such a behavior are used in multi variable optimization and solving various problems like the _Traveling Salesman Problem_
 
-==6.3 Other Applications== 
+==Other Applications== 
 
 Ant behavior is significant to researchers form various fields and the application differs from subject to subject.  
