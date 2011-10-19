@@ -1,0 +1,14 @@
+#summary Boids Java Model.
+#sidebar TableOfContents
+
+= Summary = 
+
+ * Model        : Boids (Java)
+ * Platform     : RepastS Java
+ * Version(s)	: Repast Simphony 2.0
+ * Download     : http://repast-demos.googlecode.com/files/Boids_java-1.0.zip
+ * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Boids_java
+ * Documentation : This Wiki Page & PDF in project docs folder
+ * Author       : Rowan Copely
+
+--------

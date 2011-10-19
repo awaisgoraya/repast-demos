@@ -3,3 +3,7 @@
   * Models
     * [Ant]
     * [AreaCoverage Area Coverage]
+    * [BiasedRandomWalk BiasedRandomWalk]
+    * [BoidsJava Boids (Java)]
+    * [BoidsRelogo Boids (Relogo)]
+    * [BugCatcher Bug Catcher]

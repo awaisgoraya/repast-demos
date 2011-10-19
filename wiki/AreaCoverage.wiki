@@ -6,7 +6,7 @@
  * Model        : Area Coverage
  * Platform     : RepastS !ReLogo
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/Ant-1.0.zip
+ * Download     : http://repast-demos.googlecode.com/files/AreaCoverage-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/AreaCoverage
  * Documentation : This Wiki Page
  * Author       : Mudit Raj Gupta
