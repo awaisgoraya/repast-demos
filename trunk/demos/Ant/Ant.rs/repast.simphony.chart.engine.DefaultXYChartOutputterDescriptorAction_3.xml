@@ -1,0 +1,48 @@
+<repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>
+  <name>A Chart</name>
+  <outputterFactory class="repast.simphony.chart.wizard.XYChartMappingsStep$XYFactory"/>
+  <dataSetHandler>
+    <dataSets>
+      <string>Data Set 1</string>
+    </dataSets>
+  </dataSetHandler>
+  <streamHandler>
+    <columns/>
+  </streamHandler>
+  <isBatchAction>false</isBatchAction>
+  <dataSetId class="string">Data Set 1</dataSetId>
+  <showLegend>false</showLegend>
+  <multipleSeries>false</multipleSeries>
+  <xColumnName>timeCount</xColumnName>
+  <autoRangeX>false</autoRangeX>
+  <autoRangeY>true</autoRangeY>
+  <visibleXRange>0.0</visibleXRange>
+  <visibleYRange>0.0</visibleYRange>
+  <xMin>0.0</xMin>
+  <xMax>1000.0</xMax>
+  <yMin>0.0</yMin>
+  <yMax>0.0</yMax>
+  <precisionValue>3</precisionValue>
+  <maxHistory>500</maxHistory>
+  <seriesType>POINT</seriesType>
+  <series>
+    <repast.simphony.chart.Series>
+      <seriesID>Rem3</seriesID>
+      <valueColumn>Rem1</valueColumn>
+      <hashCode>96670685</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>Rem2</seriesID>
+      <valueColumn>Rem2</valueColumn>
+      <hashCode>96670649</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>Rem1</seriesID>
+      <valueColumn>Rem3</valueColumn>
+      <hashCode>96670613</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+  </series>
+</repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>
