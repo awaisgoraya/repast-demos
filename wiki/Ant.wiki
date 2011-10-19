@@ -21,7 +21,7 @@ https://repast-demos.googlecode.com/svn/wiki/ant/main.jpg
 
 =Introduction=
 
-This is a bio-inspired model. The model is a simulation of Ant and their behavior. The model demonstrates how ants move away from their nests in search for food and then come back to the nest with food. In their way back they leave a chemical behind which can be sensed by other ants and they can also reach the food pile. In their way reinforcing the chemical left behind. This behavior is useful to researchers from different field. Specially in Swarm Robotics and Computation Intelligence. The Ant Colony Optimization is used. A more clearer study of the Ant behavior can be done through [followTheLeader] model. In that model a single ant is studied and how the follower adjusts it's path. 
+This is a bio-inspired model. The model is a simulation of Ant and their behavior. The model demonstrates how ants move away from their nests in search for food and then come back to the nest with food. In their way back they leave a chemical behind which can be sensed by other ants and they can also reach the food pile. In their way reinforcing the chemical left behind. This behavior is useful to researchers from different field. Specially in Swarm Robotics and Computation Intelligence. The Ant Colony Optimization is used. A more clearer study of the Ant behavior can be done through [FollowTheLeader] model. In that model a single ant is studied and how the follower adjusts it's path. 
 
 The first paper which used ant behavior was published in the year 1996 was :
 
@@ -35,7 +35,7 @@ The model seeks inspiration form the real world ants. Although it is not a repli
 
 ==Ant (A bit of Biology)==
 
-Ants are social insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera. Ants evolved from wasp-like ancestors in the mid-Cretaceous period between 110 and 130 million years ago and diversified after the rise of flowering plants.[5] More than 12,500 out of an estimated total of 22,000 species have been classified.
+Ants are social insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera. Ants evolved from wasp-like ancestors in the mid-Cretaceous period between 110 and 130 million years ago and diversified after the rise of flowering plants. More than 12,500 out of an estimated total of 22,000 species have been classified.
 
 Ants communicate with each other using pheromones. Like other insects, ants perceive smells with their long, thin and mobile antennae. The paired antennae provide information about the direction and intensity of scents. Ants use pheromones for more than just making trails. A crushed ant emits an alarm pheromone that sends nearby ants into an attack frenzy and attracts more ants from further away. Several ant species even use "propaganda pheromones" to confuse enemy ants and make them fight among themselves. 
 
@@ -153,7 +153,7 @@ At each tick a step() function is called most of the code is commented and self 
 
 }}} 
 
-The two functions *goAway()* and *comeBack()* are called depeding on the value of away. If their is no ActiveChem nearby, the ant movement is guiding by these functions. The ants move in an area where there is more nest scent. This is illustrated by the given figure.
+The two functions *goAway()* and *comeBack()* are called depeding on the value of away. If there is no !ActiveChem nearby, the ant movement is guided by these functions. The ants move in an area where there is more nest scent. This is illustrated by the given figure.
 
 Since the nest scent is nothing but, distance from the nest. So, the ants can move at any between 0-90 in both direction. This is done using the *move()* function. So they are first oriented towards the nest or away and they move() is called.
 
@@ -188,7 +188,7 @@ The following block of code guides the movement of the Ant, if it is not near ch
 
 }}}
 
-The following code segment and description explains what happens if the ant finds a chemical nearby. Please refer to [this http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html here] for the functions in italics.
+The following code segment and description explains what happens if the ant finds a chemical nearby. Please refer to http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html for the functions in italics.
 
 {{{
 //Checks if the present patch has chemical 
@@ -204,7 +204,7 @@ The following code segment and description explains what happens if the ant find
 	}
 }}}
 
-_patchHere()_ and _uphill()_ functions are built in functions can be checked in the documentation [6]. The variable "level" is a @Diffusible variable of the UserPatch.groovy class. Rest of the code segment is self explanatory.
+_patchHere()_ and _uphill()_ functions are built in functions can be checked in the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html documentation]. The variable "level" is a @Diffusible variable of the UserPatch.groovy class. Rest of the code segment is self explanatory.
 
 If gotCube is set, i.e. ant has a cube then it calls *drop()*, check step() function. Two UserPatch.groovy functions are called through this function (set_main() and set_diffused(). The patch where the ant was will have the maximum chemical value and the chemical will as well diffuse in other cells also i.e. in the Moore's neighborhood. _ask()_ is a predefined function, check [6] for details.
  
