@@ -7,3 +7,8 @@
     * [BoidsJava Boids (Java)]
     * [BoidsRelogo Boids (Relogo)]
     * [BugCatcher Bug Catcher]
+    * [Diffusion]
+    * [DiscreteEventSim Discrete Event]
+    * [ElFarol El Farol]
+    * [Ethnocentrism]
+    * [Fire]
