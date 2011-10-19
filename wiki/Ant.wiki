@@ -206,7 +206,7 @@ The following code segment and description explains what happens if the ant find
 
 _patchHere()_ and _uphill()_ functions are built in functions can be checked in the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html documentation]. The variable "level" is a @Diffusible variable of the UserPatch.groovy class. Rest of the code segment is self explanatory.
 
-If gotCube is set, i.e. ant has a cube then it calls *drop()*, check step() function. Two UserPatch.groovy functions are called through this function (set_main() and set_diffused(). The patch where the ant was will have the maximum chemical value and the chemical will as well diffuse in other cells also i.e. in the Moore's neighborhood. _ask()_ is a predefined function, check [6] for details.
+If gotCube is set, i.e. ant has a cube then it calls *drop()*, check step() function. Two !UserPatch.groovy functions are called through this function (set_main() and set_diffused(). The patch where the ant was will have the maximum chemical value and the chemical will as well diffuse in other cells also i.e. in the Moore's neighborhood. _ask()_ is a predefined function, check for details.
  
 {{{
 //Drops chemical 
@@ -248,21 +248,6 @@ The following is the variable description of the class.
 
 The variables which are declared as @Diffusible in the patch can be accessed in other classes. Rest variables are used only in the given class.
 
-
-------
-
-=References=
-
- # "Ant System: Optimization by a Colony of Cooperating Agents"*, Marco Dorigo, Vittorio Maniezzo and Alberto Colorni, IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS-PART B CYBERNETICS, VOL 26, NO 1, FEBRUARY 1996, 1083-4419, IEEE 1996
- # "Ant Colony Optimization - Artificial Ants as a Computation Intelligence Technique"* - Marco Dorigo, Mauro Birattari and Thomas Stutzle, IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, NOV 2006, 1556-603X/06/, IEEE 2006 
- # *"A Multi-Agent Model to simulate Intelligent Wireless Sensor Networks"* - Diana Carolina Resprepo, Alcides de J. Montoya and Demetrio Arturo Ovalle. 384978-1-4244-7173-7, IEEE 2010
- # http://ccl.northwestern.edu/netlogo/models/Ants
- # http://en.wikipedia.org/wiki/Ant#Communication
- # http://en.wikipedia.org/wiki/Ant_colony_optimization   
- # http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html 
-
----------
-
 =Applications=
 
 ==Data Routing==
@@ -276,3 +261,19 @@ Algorithms inspired from such a behavior are used in multi variable optimization
 ==Other Applications== 
 
 Ant behavior is significant to researchers form various fields and the application differs from subject to subject.  
+
+
+------
+
+=References=
+
+ # "Ant System: Optimization by a Colony of Cooperating Agents"*, Marco Dorigo, Vittorio Maniezzo and Alberto Colorni, IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS-PART B CYBERNETICS, VOL 26, NO 1, FEBRUARY 1996, 1083-4419, IEEE 1996
+ # "Ant Colony Optimization - Artificial Ants as a Computation Intelligence Technique"* - Marco Dorigo, Mauro Birattari and Thomas Stutzle, IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, NOV 2006, 1556-603X/06/, IEEE 2006 
+ # *"A Multi-Agent Model to simulate Intelligent Wireless Sensor Networks"* - Diana Carolina Resprepo, Alcides de J. Montoya and Demetrio Arturo Ovalle. 384978-1-4244-7173-7, IEEE 2010
+ # http://ccl.northwestern.edu/netlogo/models/Ants
+ # http://en.wikipedia.org/wiki/Ant#Communication
+ # http://en.wikipedia.org/wiki/Ant_colony_optimization   
+ # http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html 
+
+
+
