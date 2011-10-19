@@ -226,9 +226,9 @@ If gotCube is set, i.e. ant has a cube then it calls *drop()*, check step() func
 
 }}}
 
-foundNest(), foundCube() and setDir() are self-explanatory and can be viewed [here http://code.google.com/p/cscs-repast-demos/source/browse/mudit/Ant/src/ant/relogo/Ant.groovy]
+foundNest(), foundCube() and setDir() are self-explanatory and can be viewed [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Ant/src/ant/relogo/Ant.groovy here]
 
-===Patches(UserPatches)===
+===Patches===
 
 The following is the variable description of the class. 
 
@@ -247,11 +247,6 @@ The following is the variable description of the class.
 }}}
 
 The variables which are declared as @Diffusible in the patch can be accessed in other classes. Rest variables are used only in the given class.
-
-
-
-===Observer(UserObserver)
-
 
 
 ------
