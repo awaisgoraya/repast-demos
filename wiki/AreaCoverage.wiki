@@ -28,7 +28,7 @@ https://repast-demos.googlecode.com/svn/wiki/areacoverage/main.jpg
 It is suggested that you go through the following model also, as the guiding algorithm is quite similar and it is also related to swarm robotics.
 
  # [GuidingBots]
- # [followTheLeader]
+ # [FollowTheLeader]
  # [Ant]
   
 =Introduction=
