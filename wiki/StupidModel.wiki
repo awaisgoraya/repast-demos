@@ -618,7 +618,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/styled_bug_agent_screen
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel%202 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The [https://repast-demos.googlecode.com/svn/richard/StupidModel+2 complete source code] of the model is accessible from the proper SVN tag directly.
 
 === Further Fun ===
  * Try to schedule the `grow()` and `move()` actions with the same priority, run the model and check in which order are the actions executed.
@@ -864,7 +864,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_model_03.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_05_29_model_03 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The [https://repast-demos.googlecode.com/svn/richard/StupidModel%203 complete source code] of the model is accessible from the proper SVN tag directly.
 
 == Cell and Bug Probes ==
 === Purpose ===
