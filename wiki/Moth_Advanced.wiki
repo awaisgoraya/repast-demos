@@ -121,9 +121,9 @@ The code is self explanatory (and well commented, just in case of doubts).
 
 If the condition is false then the moth can move randomly in any direction (distance <200). A random point is generated where the moth faces and moves forward with normal speed.
 
-Code is self explanatory. Check out the [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Turtle.html#facexy%28Number,%20Number%29 facexy()], [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Turtle.html#fd%28Number%29 fd()] and [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Utility.html#random%28Number%29 random()] function from the documentation. 
+Code is self explanatory. Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html !ReLogo Docs] for more information. 
 
-Next we move on to the static motes i.e. light. There isn't much in lights behavior and thus it is skipped in this description section. This is followed by [https://cscs-repast-demos.googlecode.com/svn/mudit/Moth_Advance/src/moth_advance/relogo/UserObserver.groovy UserObserver.groovy]. In this we have two basic functions *setup()* and *go()*. In the setup() function [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#clearAll%28%29 clearAll()]. To clear the space. A user-entered number of Moths of default shape are created at random X and Y coordinates. 
+Next we move on to the static motes i.e. light. There isn't much in lights behavior and thus it is skipped in this description section. This is followed by [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/UserObserver.groovy UserObserver.groovy]. In this we have two basic functions *setup()* and *go()*. In the setup() function we have clearAll() to clear the space. A user-entered number of Moths of default shape are created at random X and Y coordinates. 
 
 {{{
 
@@ -139,7 +139,7 @@ Next we move on to the static motes i.e. light. There isn't much in lights behav
 
 }}}
 
-You can check out the documentation of Relogo, to check out the functions (built-in) used in the following block. The details of [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#setDefaultShape%28Class,%20String%29 setDefaultShape()], [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#createTurtles%28int%29 createMoths()], [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Turtle.html#setxy%28Number,%20Number%29 setxy()] and other functions can be found [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/ReLogoPrimitives.html here]
+Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html !ReLogo Docs] for more information. 
 
 If you find the concept of shapes abstract, check out the shapes folder in your project explorer task bar. You will find the details of the shapes that are already made for you. You can also add your custom made shapes. These shapes can be applied to your agents just by using their names. An example of the same is in the code segment above. "default" is one of the shapes in the shape folder.
 
@@ -159,11 +159,11 @@ Ask() function (in the code segment below) is also used. Ask takes two parameter
 
 }}}  
 
-Rest of the code is either unedited or self - explanatory. Although [http://cscs-repast-demos.googlecode.com/svn/mudit/Moth_Advance/src/moth_advance/relogo/UserGlobalsAndPanelFactory.groovy UserPanelFacrory.groovy] is dealt with in the next section.
+Rest of the code is either unedited or self - explanatory. Although [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/UserGlobalsAndPanelFactory.groovy UserGlobalsAndPanelFacrory.groovy] is dealt with in the next section.
 
 ==User Panel=
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Moth_Advance(Usr).JPG
+https:/repast-demos.googlecode.com/svn/wiki/moth/Moth_Advance(Usr).JPG
 
 
  * *Push Button (that rebounds)* 
@@ -188,17 +188,9 @@ https://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Moth_Advance(Usr)
  
  - Source : Size of the source
 
-==Data Sets, Outputters and External Plugins==
 
-_to be added soon_
 
-==Plots==
-
-_to be added soon_
-
-----
-
-=4. Applications=
+=Applications=
 
 ==Moth Like Behavior==
 
@@ -210,7 +202,7 @@ This model can be used as a basic block for swarm surveillance robots. The robot
 
 ----
 
-=5. Extending the Model=
+=Extending the Model=
 
 ==Plots, Plug-ins, DataSets and Outputters==
 
@@ -231,7 +223,7 @@ User can try implementing the initial hypothesis about moth locomotion. The deta
 
 ----
 
-=6. References=
+=References=
 
 
 # http://en.wikipedia.org/wiki/Moth  
