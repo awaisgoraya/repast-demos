@@ -25,7 +25,7 @@
 It is suggested that you go through the following models also, as the guiding algorithm is quite similar, although the implementation is entirely different.
 
  # [Moth_Basic Moth (Basic)]
- # [Moth_Advanced Moth (Advanced)]
+ # [Moth (Advanced)d Moth (Advanced)]
 
 
 -----
@@ -36,7 +36,7 @@ A fly-killing device is used for pest control. A fly-killing device typically at
 
 A bug zapper is a device that attracts and kills insects that are attracted by light. A light source attracts insects to an electrical grid, where they are electrocuted by touching two wires with a high voltage between them. The name stems from the characteristic zap sound produced when an insect is electrocuted.
 
-A similar system is modeled here. Read the Description section to figure out the difference between the Moth_Advance model and BugCatcher Model. 
+A similar system is modeled here. Read the Description section to figure out the difference between the Moth (Advanced) model and BugCatcher Model. 
 
 The following video illustrates the use of bug zapper and that bugs can be seen dying due to electrocution. 
 
@@ -194,7 +194,7 @@ The model can be used as reference and a multi-robot de mining simulation can be
 
 An feature that can be incorporated in the model is a slider for increasing the catching distance of the bug catcher. In this model the machine only catches bugs in the Moore's neighborhood. 
 
-The user can modify the code and use it to catch bugs in even larger area. A similar implementation can be found in both Moth_Advance and Moth_Basic models.
+The user can modify the code and use it to catch bugs in even larger area. A similar implementation can be found in both Moth (Advanced) and Moth_Basic models.
 
 ==Surrounding Forbidden Area==
 
