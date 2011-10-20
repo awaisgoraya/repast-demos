@@ -490,7 +490,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/stupid_model_1_finished
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/trunk/demos/StupidModel complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel project in the downloadable archive.
 
 === Further Fun ===
 
@@ -618,7 +618,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/styled_bug_agent_screen
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel{{{%20}}}2 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 2 project in the downloadable archive.
 
 === Further Fun ===
  * Try to schedule the `grow()` and `move()` actions with the same priority, run the model and check in which order are the actions executed.
@@ -864,7 +864,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_model_03.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel%203 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 3 project in the downloadable archive.
 
 == Cell and Bug Probes ==
 === Purpose ===
@@ -917,7 +917,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/timeseries_for_probed_a
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_05_29_model_04 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 4 project in the downloadable archive.
 
 == Parameters and Parameter Displays ==
 === Purpose ===
@@ -1081,7 +1081,7 @@ The agent parameters may be modified by double-clicking on the agents on the gra
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_05_29_model_05 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 5 project in the downloadable archive.
 
 == Histogram Output ==
 === Purpose ===
@@ -1143,7 +1143,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_model_06.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_08_model_06 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 6 project in the downloadable archive.
 
 == Stopping the Model ==
 === Purpose ===
@@ -1174,7 +1174,7 @@ public void grow() {
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_09_model_07 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 7 project in the downloadable archive.
 
 == File Output ==
 === Purpose ===
@@ -1248,7 +1248,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_model_08.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_10_model_08/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 8 project in the downloadable archive.
 
 == Randomized Agent Actions ==
 === Purpose ===
@@ -1311,7 +1311,7 @@ private ArrayList<Bug> getBugList() {
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_10_model_09/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 9 project in the downloadable archive.
 
 == Sorted Agent Actions ==
 === Purpose ===
@@ -1362,7 +1362,7 @@ That is all!
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_10_model_10/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 10 project in the downloadable archive.
 
 == Optimal Movement ==
 === Purpose ===
@@ -1458,7 +1458,7 @@ That is all!
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_12_model_11/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 11 project in the downloadable archive.
 
 == Bug Mortality and Reproduction ==
 === Purpose ===
@@ -1829,7 +1829,7 @@ Also note that we did not used the already queried list of bugs (`bugList`). We 
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_13_model_12/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 12 project in the downloadable archive.
 
 == Population Abundance Graph ==
 === Purpose ===
@@ -1928,7 +1928,7 @@ That is all!
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_13_model_13/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 13 project in the downloadable archive.
 
 == Random Normal Initial Size ==
 === Purpose ===
@@ -2050,7 +2050,7 @@ That is all! We have induced variability among the initial `Bug` population that
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_15_model_14/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 14 project in the downloadable archive.
 
 == Habitat Data from File Input ==
 === Purpose ===
@@ -2323,7 +2323,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_model_15.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_16_model_15/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 15 project in the downloadable archive.
 
 == Predators ==
 === Purpose ===
@@ -2521,7 +2521,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation.png
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_18_model_16/ complete source code] of the model is accessible from the proper SVN tag directly.
+ * The complete source code of the model in the StupidModel 16 project in the downloadable archive.
 
 = Conclusion and Final Words =
 
