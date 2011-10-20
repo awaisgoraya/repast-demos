@@ -127,6 +127,6 @@ Application specific graphs, outputters and plug in can be incorporated in the g
 
 =References=
 
-* http://en.wikipedia.org/wiki/Swarm_robotics
+# http://en.wikipedia.org/wiki/Swarm_robotics
 
-* http://www.swarmrobotic.com/
+# http://www.swarmrobotic.com/
