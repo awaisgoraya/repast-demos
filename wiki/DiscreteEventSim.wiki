@@ -12,3 +12,5 @@
  * Author       : Tim Schweda
 
 --------
+
+See [https://repast-demos.googlecode.com/svn/trunk/demos/DiscreteEventSim/docs/discreteeventsim.pdf PDF file] for tutorial.
