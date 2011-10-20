@@ -527,7 +527,7 @@ opened in the other tab to know more patch related functions. You can
 also try the [Ant] model in which the patches are used extensively. 
 
 You can also compare the coordinates to a range of values to make bigger
-nests and food piles. You can also go through the [areaCoverage] model 
+nests and food piles. You can also go through the [AreaCoverage] model 
 to arrange the patches in different shapes.    
 
 Similarly, we can add a makeNest() function. This will convert the patch
