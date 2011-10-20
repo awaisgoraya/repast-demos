@@ -25,7 +25,7 @@
 It is suggested that you go through the following models also, as the guiding algorithm is quite similar, although the implementation is entirely different.
 
  # [Moth_Basic Moth (Basic)]
- # [Moth (Advanced)d Moth (Advanced)]
+ # [Moth_Advance Moth (Advanced)]
 
 
 -----
