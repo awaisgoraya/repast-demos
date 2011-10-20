@@ -43,4 +43,4 @@ Termites are blue, and chips are yellow.  There are only a few parameters for th
 
 = References =
 
-  * NetLogo termites model: http://ccl.northwestern.edu/netlogo/models/Termites
+  * !NetLogo termites model: http://ccl.northwestern.edu/netlogo/models/Termites
