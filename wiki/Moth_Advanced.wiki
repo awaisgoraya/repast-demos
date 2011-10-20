@@ -121,7 +121,7 @@ The code is self explanatory (and well commented, just in case of doubts).
 
 If the condition is false then the moth can move randomly in any direction (distance <200). A random point is generated where the moth faces and moves forward with normal speed.
 
-Code is self explanatory. Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html !ReLogo Docs] for more information. 
+Code is self explanatory. Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html ReLogo Docs] for more information. 
 
 Next we move on to the static motes i.e. light. There isn't much in lights behavior and thus it is skipped in this description section. This is followed by [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/UserObserver.groovy UserObserver.groovy]. In this we have two basic functions *setup()* and *go()*. In the setup() function we have clearAll() to clear the space. A user-entered number of Moths of default shape are created at random X and Y coordinates. 
 
@@ -139,7 +139,7 @@ Next we move on to the static motes i.e. light. There isn't much in lights behav
 
 }}}
 
-Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html !ReLogo Docs] for more information. 
+Check out the [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html ReLogo Docs] for more information. 
 
 If you find the concept of shapes abstract, check out the shapes folder in your project explorer task bar. You will find the details of the shapes that are already made for you. You can also add your custom made shapes. These shapes can be applied to your agents just by using their names. An example of the same is in the code segment above. "default" is one of the shapes in the shape folder.
 
