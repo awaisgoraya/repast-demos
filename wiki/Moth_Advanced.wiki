@@ -165,7 +165,6 @@ Rest of the code is either unedited or self - explanatory. Although [http://code
 
 https:/repast-demos.googlecode.com/svn/wiki/moth/Moth_Advance(Usr).JPG
 
-
  * *Push Button (that rebounds)* 
       
   - Set Up : For setting up the motes in the area according to the selected options and settings. 
