@@ -26,7 +26,7 @@ https://repast-demos.googlecode.com/svn/wiki/guidingBots/main.jpg
 It is suggested that you go through the following models also, as the guiding algorithm is quite similar and it is also related to swarm robotics.
 
  # [BugCatcher]
- # [followTheLeader]
+ # [FollowTheLeader Follow The Leader]
  # [Ant]
  # [AreaCoverage]
   
