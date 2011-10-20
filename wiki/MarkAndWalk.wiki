@@ -36,7 +36,7 @@ Model Outputter is also added. The added model outputter is comma separated valu
 
 *Note:* 
 
- # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
+This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
 
 ---------
 
