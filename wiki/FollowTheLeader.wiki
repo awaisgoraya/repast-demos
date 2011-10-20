@@ -43,7 +43,7 @@ Cheers !!!
 
 Agent-based modelling and simulation (ABMS) is a relatively new approach
 to modelling complex systems composed of interacting, autonomous agents? Agents have behaviours, often described by simple rules, and nteractions with other agents, which in turn influence their behaviours. By modelling agents individually, the full effects of the diversity that exists among agents in their attributes and behaviours can be observed 
-as it gives rise to the behavior of the system as a whole. [1]
+as it gives rise to the behavior of the system as a whole. [FollowTheLeader#References Reference]
 
 We are infact doing the same for this model. We are modeling artificial 
 ants. These ants have relatively simple behaviour, described by simple rules (which will be talked about in the nest question). This behavior is influenced by other ants and environment in which the ant is. When all ants are left to interact with  each other  in a given environment, a complex overall behavior is noticed. Let us first figure out What are we modelling?
@@ -1233,5 +1233,5 @@ check other Relogo models and their Model Description and documentation
 
 =References=
 
-[1] "Tutorial on agent-based modelling and simulation", CM Macal and MJ 
+"Tutorial on agent-based modelling and simulation", CM Macal and MJ 
 North, Journal of Simulation (2010) 4, 151?162, 2010 Operations Research Society 
