@@ -488,6 +488,10 @@ We are ready with the configuration of the first !StupidModel version! Click on 
 
 https://repast-demos.googlecode.com/svn/wiki/StupidModel/stupid_model_1_finished_screenshot.png
 
+=== Complete Model ===
+
+ * The [https://repast-demos.googlecode.com/svn/trunk/demos/StupidModel complete source code] of the model is accessible from the proper SVN tag directly.
+
 === Further Fun ===
 
  * It is quite easy to set different visualization settings, spend a little time with playing them:
@@ -614,7 +618,7 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/styled_bug_agent_screen
 
 === Complete Model ===
 
- * The [https://repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_05_28_model_02 complete source code] of the model is accessible from the proper SVN tag directly.
+ * The [https://repast-demos.googlecode.com/svn/richard/StupidModel%202 complete source code] of the model is accessible from the proper SVN tag directly.
 
 === Further Fun ===
  * Try to schedule the `grow()` and `move()` actions with the same priority, run the model and check in which order are the actions executed.
