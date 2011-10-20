@@ -2200,7 +2200,7 @@ public static List<CellData> readDataFile(final String cellDataFileName) {
 
   <b>Remark</b> The above described function is a bit simplified version of the where a few error checking is omitted (when reading data from a file a lot of things may broke, e.g., wrong number of data in a line, missing data in a file, malformed data, etc.). The above described function should work fine in most of the situations, however, we supplied a bit sophisticated version in the implementation to help identify what went wrong during the parsing of the data file.
 
-==== Updating HabitatCell Implementation ====
+==== Updating !HabitatCell Implementation ====
 There is a few update that has to be done for the current `HabitatCell` implementation. First, you can remove `maximumFoodProductionRate` member variable, since the production rate is now read from the specified file, and not random any more.
 
 However, we need to store specified `foodProductionRate`.
