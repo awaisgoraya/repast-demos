@@ -19,7 +19,7 @@
 -----
 
 = Introduction =
-This tutorial is based on the article _[http://condor.depaul.edu/slytinen/abm/StupidModelFormulation.pdf StupidModel and Extensions: A template and teaching tool for agent-based modeling platforms]_ by Steven F. Railsback, Steven L. Lytinen and Stephen K. Jackson, and guides through a creation of a very simple model with random moving agents to a basic model with different agents interacting with each other and their surroundings in [http://repast.sourceforge.net/ Repast Simphony]. The code is self comes in a collection of projects numbered up to !StupidModel 16.
+This tutorial is based on the article _[http://condor.depaul.edu/slytinen/abm/StupidModelFormulation.pdf StupidModel and Extensions: A template and teaching tool for agent-based modeling platforms]_ by Steven F. Railsback, Steven L. Lytinen and Stephen K. Jackson, and guides through a creation of a very simple model with random moving agents to a basic model with different agents interacting with each other and their surroundings in [http://repast.sourceforge.net/ Repast Simphony]. The code itself is a collection of projects numbered up to !StupidModel 16.
 
 When we are finished, the running model should look like the following figure:
 
