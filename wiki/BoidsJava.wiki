@@ -88,7 +88,7 @@ Whenever an object moves itself and we are using these two projections, we need 
 
 == Context Builder ==
 
-Create a new class in the Boids package and name it BoidsContextBuilder. Let's do the simple stuff first:
+Create a new class in the Boids package and name it !BoidsContextBuilder. Let's do the simple stuff first:
 
 {{{
 public Context build(Context<Object> context) {
@@ -125,7 +125,7 @@ This complicated-looking snippet of code creates two objects, called factories, 
 
 Let's go over the commands we used for the method of adding objects to our two projections. For the continuous space, we have defined a Random Cartesian Adder, which means that whenever we add a Boid to the context with the command context.add(boid) as we do in the next step, the Boid automatically gets added to the continuous space at a random location. For the grid, the Boid will not be physically located on the grid until we manually put it somewhere.
 
-The other point of confusion here is that there is another object being created in the parameters for the method createGrid(), GridBuilderParameters. We can think of this as merely a carrier or wrapper for the parameters inside of it. For a better understanding of the commands being invoked, refer to the Repast Java API, specifically the pages GridBuilderParameters, ContinuousSpace and Grid.
+The other point of confusion here is that there is another object being created in the parameters for the method createGrid(), !GridBuilderParameters. We can think of this as merely a carrier or wrapper for the parameters inside of it. For a better understanding of the commands being invoked, refer to the Repast Java API, specifically the pages !GridBuilderParameters, !ContinuousSpace and Grid.
 
 The last thing we need to add to the method is creation of the Boid objects and the addition of them to the context. We do that with this code snippet, which goes right underneath the last snippet of code:
 
@@ -158,7 +158,7 @@ Click on the arrow to the right of the green play button to see the popup menu o
 
 Make sure the menu to the left is on the Scenario Tree tab. Find Display and right-click on it, and click Add Display. Name it something like 'Boids Display' and move 'space' from the left-hand box to the left-hand box. You can do this by clicking on 'space' and then clicking on the green arrow that is pointing to the right. 
 
-Make sure that the 'Type' drop-down menu is set to 2D. If the default is GIS, then there is something wrong with your BoidsContextBuilder. 
+Make sure that the 'Type' drop-down menu is set to 2D. If the default is GIS, then there is something wrong with your !BoidsContextBuilder. 
 
 Click next. This menu lets you tell the program which class(es) will be the agents in the simulation. Move Boid to the right-hand box and click next.
 
@@ -191,7 +191,7 @@ public ArrayList<Boid> neighborhood(){
 }
 }}}
 
-Lines 2-3 declare an object that can iterate through all Boids in the Moore neighborhood of the calling Boid. In 5-7 we add these all to an ArrayList. However, since the Boids on the same cell as the calling Boid aren't included in the Moore neighborhood, we need to add those too, which is done in 8-11. Finally, we need to remove the calling Boid so it doesn't count itself.
+Lines 2-3 declare an object that can iterate through all Boids in the Moore neighborhood of the calling Boid. In 5-7 we add these all to an !ArrayList. However, since the Boids on the same cell as the calling Boid aren't included in the Moore neighborhood, we need to add those too, which is done in 8-11. Finally, we need to remove the calling Boid so it doesn't count itself.
 
 == alignmentDirection() method ==
 
@@ -409,7 +409,7 @@ Do the same for separationDirection. Now the Boids won't all behave exactly alik
 
 You're now done with the basics of this model. If you want to continue to work on it, here are some suggestions:
   * the separation and cohesion steering methods are weighted, but the alignment is not. Find a way to vary how influential that steering method is on a Boid.
-  * Create a new class, BoidOfPrey. Objects of this class will prey on Boids, and Boids will do their best to avoid them. You'll have to figure out how to weight the new steering method to avoid the predator well when the Boid can see it, but also ignore the predator when it's far enough away.
+  * Create a new class, !BoidOfPrey. Objects of this class will prey on Boids, and Boids will do their best to avoid them. You'll have to figure out how to weight the new steering method to avoid the predator well when the Boid can see it, but also ignore the predator when it's far enough away.
 
 === Sources ===
 
