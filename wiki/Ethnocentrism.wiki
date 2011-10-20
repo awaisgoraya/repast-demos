@@ -50,7 +50,7 @@ Once the parameters have been chosen, click the *Setup* button to initialize and
 
   * Suppose the different colors are not equally represented by immigrating agents (e.g., with probabilities {0.4 0.2 0.2 0.2} instead of {0.25 0.25 0.25 0.25}).  Implement this in the model and run some experiments varying the probabilities.
 
-= ReLogo Features =
+= !ReLogo Features =
 
 Combining the *lput* and *butFirst* methods provides a convenient way for keeping track of data from the last 100 time steps to calculate moving averages.  The *lput* method appends an item at the end of a list, and the *butFirst* method returns the list minus the first item.  Alternatively, the list items could be pushed the other way by using the *fput* and *butLast* methods instead.
 
