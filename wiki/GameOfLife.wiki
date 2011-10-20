@@ -15,6 +15,8 @@
  
 https://repast-demos.googlecode.com/svn/trunk/demos/GameOfLife/docs/gameoflife.png
 
+-------
+
 = Contents =
 <wiki:toc max_depth="2" />
 
