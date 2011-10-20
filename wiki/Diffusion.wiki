@@ -48,7 +48,7 @@ The values *maxConcentration* and *minConcentration* measure the maximum and min
 
 The Diffusion model showcases two different methods for modifying @Diffusible patch variables:  *diffuse* and *diffusibleMultiply*.  The *diffuse* method takes as inputs the name of the patch variable as a String and a double value between 0 and 1 representing the fraction of the patch variable to be shared with neighboring patches.  The amount to be shared is split equally among all neighbors.  For the *diffusibleMultiply* method, the first input is also a String of the patch variable's name, but the second input is a double by which the @Diffusible variable of each patch is multiplied.  Similar methods exist for dividing, adding to, and subtracting from patch variables:  *diffusibleDivide*, *diffusibleAdd*, and *diffusibleSubtract*.  There is also a *diffusibleApply* method, where the second input is a DoubleFunction that can be applied to the patch variable.
 
-In addition, the model demonstrates how to change not only the color of patches, but also their shade.  There are a few simple rules to keep in mind when working with colors in ReLogo:
+In addition, the model demonstrates how to change not only the color of patches, but also their shade.  There are a few simple rules to keep in mind when working with colors in !ReLogo:
 
   * Each double value between 0.0 and 139.9, inclusive, with one digit to the right of the decimal point has a corresponding color.
   * If _x_ is a double value, then _x_ has the same color as _x_ mod 140 with any digits to the right of the first after the decimal point truncated (e.g., 147.099 and 7.0 both correspond to the same color).
