@@ -41,7 +41,7 @@ Select the *Initial Density* of living cells, then click the *Setup* button to i
 
   * Implement this model using turtles instead of patches.
 
-= ReLogo Features =
+= !ReLogo Features =
 
 In this simple model, it is tempting to oversimplify the code by using only one *ask* block to update the cells.  This causes the cells to update sequentially rather than simultaneously, which can lead to certain patterns not behaving as expected.  Instead, a second *ask* block is needed beforehand to gather information about each cell's neighbors, and the cells are then updated in a separate *ask* block.
 
