@@ -79,7 +79,7 @@ def N = count(inRadius(lights(),(source+intensity))
 
 }}}
 
-The functions used here are [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Turtle.html#inRadius%28List,%20Number%29 inRadius()] and [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Utility.html#count%28List%29 count()]. You can check out the links. inRadius returns an agent set which is a subset of the parameter 1 (lights()) and is in the distance (source+intensity) from the caller.
+The functions used here are inRadius() and count(). You can check out the links. inRadius returns an agent set which is a subset of the parameter 1 (lights()) and is in the distance (source+intensity) from the caller.
 count() returns the number of agents in that agent set.
 
 Depending on the value of N the behavior of the moths is decided. If there is a light source in vicinity.
