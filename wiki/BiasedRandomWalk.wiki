@@ -38,7 +38,7 @@ One of the sample output file can be checked [https://repast-demos.googlecode.co
 
 *Note:* 
 
- # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
+ * This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
 
 ---------
 
