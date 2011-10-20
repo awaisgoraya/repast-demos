@@ -1,0 +1,14 @@
+#summary N-Bodies Model.
+#sidebar TableOfContents
+
+= Summary = 
+
+ * Model        : N-Bodies
+ * Platform     : RepastS !ReLogo
+ * Version(s)	: Repast Simphony 2.0
+ * Download     : http://repast-demos.googlecode.com/files/N_Bodies-1.0.zip
+ * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/N_Bodies
+ * Documentation : This Wiki Page
+ * Author       : Rowan Copley
+ 
+--------
