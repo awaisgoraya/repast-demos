@@ -571,7 +571,7 @@ create simple links.
 
 Although we have not added any Links in this model, but adding a link is
 useful in networking models and models imitating social behavior. You 
-can do so by modifying _UserLink.groovy_ (Fig. 20) or adding a new link.
+can do so by modifying _!UserLink.groovy_ (Fig. 20) or adding a new link.
   
 
 http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%2020.jpg
@@ -868,25 +868,20 @@ http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2031.JPG
 
 _Fig. 31_
     
- 7 
+
 
 
 http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2032.JPG
 
 _Fig. 32_
 
- 8
+
 
 
 http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2033.JPG
 
 _Fig. 33_
 
- 9
-
- #
- #
- # 
 
 Your agent mapping should look like this(refer to Fig. 35) :
 
@@ -938,7 +933,7 @@ http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2038.jpg
 _Fig. 38_
 
  # Give a Name, say "Difference between first and present ant"
- # Select _DataSet_ i.e. _Difference_
+ # Select _!DataSet_ i.e. _Difference_
 
 Now you have to set the x axis values : (refer to Fig. 39)
 
@@ -1210,11 +1205,11 @@ The user can try and do test runs to check the relationship of
 
 ==How to change Run Options?==
 
-http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%0260
+http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2060
 
 ==How to add Parameters of Simulation?==
 
-http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%0261
+http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2061
 
 ==How to extend the model?==
 
@@ -1224,12 +1219,7 @@ http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%0261
 
 You can check out the !ReLogo Getting Started guide 
 [http://repast.sourceforge.net/docs/!ReLogoGettingStarted.pdf here]. It 
-is an excellent piece of text for starting with !ReLogo. You can also 
-check other !ReLogo models and their Model Description and documentation 
-[http://code.google.com/p/cscs-repast-demos/wiki/RepastS!ReLogo here]. 
- 
-==Where to learn more about RepastS?==
-
+is an excellent piece of text for starting with !ReLogo.
 
 =References=
 
