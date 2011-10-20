@@ -350,7 +350,7 @@ def update()
 
 **"moved" gets updated. _forward(n)_ function is used to move the ant forward, in the direction in which it was facing for a specified number of steps. 
 
-**If the ant finds food in it's new position, it will be disabled. The _patchHere()_ function used here will give the patch on which the ant is on. "food" is a variable in the UserPatch class _(More on this later)_. 
+**If the ant finds food in it's new position, it will be disabled. The _patchHere()_ function used here will give the patch on which the ant is on. "food" is a variable in the !UserPatch class _(More on this later)_. 
 But what exactly are patches. Well, lets first look at a small piece of code before answering this question.
 
 {{{
@@ -372,7 +372,7 @@ def setFollower()
 }
 }}}
 
-The code is quite self explanatory, but the importance of this segment is, when are these functions called? Well, they are called from the "UserObserver.groovy" at the time of creation of ants. We will get back to that later.
+The code is quite self explanatory, but the importance of this segment is, when are these functions called? Well, they are called from the "!UserObserver.groovy" at the time of creation of ants. We will get back to that later.
 
 Now we have defined the behavior of an ant, check out the [**] marked section in the above question for the overall behavior. This is quite similar to the one we described in Whar are we modeling?
 
@@ -477,7 +477,7 @@ you continue to play with multi agent modeling. For, now lets define
 patch properties for different parts of a simple environment. 
 
 We can add patches in a similar way we added turtles. But we will be 
-using the default _UserPatch.groovy_ that was created when we created 
+using the default _!UserPatch.groovy_ that was created when we created 
 our project. You can find it in the project explorer (Fig. 19). Double 
 click on it to open and work with it. 
 
@@ -516,7 +516,7 @@ Now let's see how to set properties of a patch to a "Food Patch"
 }}}
 
 This function is used to set a patch a "Food Patch". We will call this 
-function from "UserObserver.groovy" _(More on that later)_ 
+function from "!UserObserver.groovy" _(More on that later)_ 
 
 The functions used here are getPxcor() and getPyCor(). It gives the x 
 and y coordinate of the patch. If it is same as the food location, i.e. 
@@ -585,7 +585,7 @@ has an extensive use of links is the [GuidingBots] model.
 ==How to add Observers?==
 
 Now, we have defined the behavior of ants and links and properties of 
-patches. Next we will modify the "UserObserver.groovy" (refer to fig. 
+patches. Next we will modify the "!UserObserver.groovy" (refer to fig. 
 21) file and create ants, links and patches. We will also call some 
 functions of these classes, either iteratively or once.  
 
@@ -665,7 +665,7 @@ _setFollower()_ function. So basically we have created leader and
 follower ants.
 
 Next we make a _go()_ function to call the _step()_ function of all the 
-ants. The complete code for UserObserver.groovy would look like this :
+ants. The complete code for !UserObserver.groovy would look like this :
 
 {{{
 class UserObserver extends BaseObserver{
@@ -713,7 +713,7 @@ class UserObserver extends BaseObserver{
 Now we have done everything i.e. defined the behavior of ants, set up 
 the environment using Userpatch, defined links and finally created 
 links, turtles and environment and the overall guiding functions in the 
-UserObserver. Our model is almost ready to run. 
+!UserObserver. Our model is almost ready to run. 
 
 Did we forget anything? Well, yes we did. Remember those variables which
 we left - "numAnts", "dev" etc. Well the next section talks about the 
@@ -750,7 +750,7 @@ Abstract!ReLogoGlobalsAndPanelFactory{
 }
 }}}
 
-We made two functions _setup()_ and _go()_ in our _UserObserver.groovy_ 
+We made two functions _setup()_ and _go()_ in our _!UserObserver.groovy_ 
 class. We can call these functions on button clicks. So we added two 
 buttons with label using _addButtonWL("function", "Label")_. When 
 pressed they will call the function with the same name as the first 
@@ -858,7 +858,7 @@ _Fig. 30_
 
  # Click on _Add_ and a new column (4) and Source (2) appears.
  # Click on small drop down arrow to see a list of sources available. 
- # Scroll down and select _timestamp():Object_ from the list. Remember making a _timestamp()_ function in the _UserObserver_ class earlier in this section.
+ # Scroll down and select _timestamp():Object_ from the list. Remember making a _timestamp()_ function in the _!UserObserver_ class earlier in this section.
  # Give a nice name to this value, say "Time". Just click on the present name and you can edit it then. Repeat Steps (1-4) for _getFr():Object_ * and _getPr()_ * Object with names _Steps taken by first Ant_ and _Steps taken by present Ant_ respectively. 
  # *IF* you added an extra data set you can delete it using this.
  # Now lets tell RepastS about the number of series. For doing this click on a drop down button and select _add using wizard_ (refer to Fig. 31)
