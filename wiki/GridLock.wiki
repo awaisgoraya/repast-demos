@@ -28,7 +28,7 @@ The traffic signals can be configured at the beginning of the simulation to dete
 
 = Usage =
 
-Specify the number of roads in each direction by selecting values for *# N/S Roads* and *# E/W Roads*.  Also select a value for *# Cars* to specify the total number of cars on the road network.  (This value must not be greater than the total number of road patches.)  To determine how the traffic signals are coordinated, select one of the following *Signal Configuration*s:
+Specify the number of roads in each direction by selecting values for *# N/S Roads* and *# E/W Roads*.  Also select a value for *# Cars* to specify the total number of cars on the road network.  (This value must not be greater than the total number of road patches.)  To determine how the traffic signals are coordinated, select one of the following *Signal Configurations*:
 
   * *!AllSync*:  all signals are the same
   * *NSAltEWSync*:  signal colors alternate in the N/S direction but are the same in the E/W direction
