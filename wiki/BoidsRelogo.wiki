@@ -4,7 +4,7 @@
 = Summary = 
 
  * Model        : Boids (Relogo)
- * Platform     : RepastS !Relogo
+ * Platform     : RepastS !ReLogo
  * Version(s)	: Repast Simphony 2.0
  * Download     : http://repast-demos.googlecode.com/files/Boids_relogo-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Boids_relogo
