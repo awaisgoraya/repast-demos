@@ -12,3 +12,6 @@
  * Author       : Rowan Copely
 
 --------
+
+See the [BoidsJava Boids (Java)] for a description of the Boids Model. This is
+a Relogo implementation of the model described there.
