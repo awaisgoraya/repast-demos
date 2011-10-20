@@ -12,3 +12,76 @@
  * Author       : Mudit Raj Gupta
 
 --------
+
+
+https://repast-demos.googlecode.com/svn/wiki/areacoverage/main.jpg
+
+= Contents = 
+
+<wiki:toc max_depth="2" />
+
+---------
+
+=Before Getting Started=
+
+
+It is suggested that you go through the following model also, as the guiding algorithm is quite similar and it is also related to swarm robotics.
+
+ # [GuidingBots]
+ # [followTheLeader]
+ # [Ant]
+  
+=Introduction=
+
+The model describes the area coverage pattern of a group of Agents, initially kept in a given geometry. The model is useful in studying the spread, the agent density at different radii and comparing the spread given different geometries. The model can be further extended and 
+modified according to specific application. 
+
+The model is inspired by the following work. 
+
+  K Cheng, P. Dasgupta " Distributed Coverage of Environments using Multi-robot swarms with Memory and Communication Constrains." UNO Technical Report no. cst-2009-1, 2009
+
+It implements an initial stage of the model. It is a general implementation and can be changed depending on application. The model is modified and new features are added.
+
+A presentation of the work can be found [http://docs.google.com/viewer?a=v&q=cache:rP_3HLYWTIUJ:disalw3.epfl.ch/Miscellaneous/Events_News/Docs/Dasgupta_seminar_17062009.pdf+Area+Coverage+npde+counting&hl=en&gl=in&pid=bl&srcid=ADGEESi2rlCzZdWo9tXTCaiw_XnCwWmjkBi5HNACd0W-pDRNgi9nULXZmAPspzA8wuQ8i7fUnEcNQpTnCCRNyYawja1i4X0kDzQ3LzaFPEwMy7yMwhEjxVjztBgtGDNYiQoXXD1_BmS&sig=AHIEtbTZSsgGpYDDJxR2XHJ3Eua9XjERyQ&pli=1 here]:
+
+The "Dispersing" section of this video was also an inspiration for making the model
+
+<wiki:video url="http://www.youtube.com/watch?v=rYIkgG1nX4E"/>
+
+-----------
+=Model Description=
+
+The guiding algorithm is fairly simple. Each agents, lets call it a "Mote", tries to move in the area where there are less number of motes initially available. This forces the overall colony of motes to expand and thus covering a given area.
+
+==Running the Model==
+
+User can select the initial geometry (from Line, Circle, Square and Hexagon) in which the motes are deployed. The parameters of the geometry can also be changed by the user. The user can also control the population of the motes and the step size. Standard Setup, Go and Go Once Options are also present. User Panel looks like this :
+
+https://repast-demos.googlecode.com/svn/wiki/areacoverage/panel.jpg
+
+===Output===
+
+Model Outputter is also added. The added model outputter is comma separated values of "Time" and "Number of Motes" (Outside 14 units radius). One of the sample output file can be checked [https://repast-demos.googlecode.com/svn/wiki/areacoverage/Model%20Output.txt here]
+
+*Note:* 
+
+ # This Output can be fed into various external plug-ins available with RepastS like MATLAB and spreadsheet.
+ # The number 14 used in the model has no relevance, it was chosen to get a good output. The user can modify the source code and set it to some other value.
+
+---------
+
+===Analysis===
+
+Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Number of Motes" (outside 14 units radius from the center) on y-axis and "Time" on x-axis is plotted.
+
+https://repast-demos.googlecode.com/svn/wiki/areacoverage/plot.png
+
+For the plot it can be concluded that the number of motes outside a given radius grow exponentially. _Check with many test runs_
+
+----------
+
+==Algorithm and Implementation==
+
+
+
+
