@@ -4,7 +4,7 @@
 = Summary = 
 
  * Model        : Follow The Leader
- * Platform     : RepastS !ReLogo
+ * Platform     : RepastS !!ReLogo
  * Version(s)	: Repast Simphony 2.0
  * Download     : http://repast-demos.googlecode.com/files/followTheLeader-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/followTheLeader
@@ -25,7 +25,7 @@ https://repast-demos.googlecode.com/svn/wiki/followTheLeader/Index.jpg
 
 ==How to use this tutorial?==
 
-This How-To/What-Is guide basically will help you learn how to model using RepastS with Relogo Platform. This guide does not assume any pre-requisites apart from the mentioned ones, although it is advisable to go through each question in the order in which they are given. Please
+This How-To/What-Is guide basically will help you learn how to model using RepastS with !ReLogo Platform. This guide does not assume any pre-requisites apart from the mentioned ones, although it is advisable to go through each question in the order in which they are given. Please
 don't skip questions if you are a new user. Each question builds on to the other. Although, this guide tells you how to make a model from scratch, but you can also try other documents (_a list can be found in What other such documents are available?_). 
 
 Some part of the code is not dealt with in this tutorial. That code is mostly feature extension and does not affect the overall behavior of the
@@ -43,7 +43,7 @@ Cheers !!!
 
 Agent-based modelling and simulation (ABMS) is a relatively new approach
 to modelling complex systems composed of interacting, autonomous agents? Agents have behaviours, often described by simple rules, and nteractions with other agents, which in turn influence their behaviours. By modelling agents individually, the full effects of the diversity that exists among agents in their attributes and behaviours can be observed 
-as it gives rise to the behavior of the system as a whole. [FollowTheLeader#References Reference]
+as it gives rise to the behavior of the system as a whole. [FollowTheLeader#References 1]
 
 We are infact doing the same for this model. We are modeling artificial 
 ants. These ants have relatively simple behaviour, described by simple rules (which will be talked about in the nest question). This behavior is influenced by other ants and environment in which the ant is. When all ants are left to interact with  each other  in a given environment, a complex overall behavior is noticed. Let us first figure out What are we modelling?
@@ -97,11 +97,11 @@ reading the question, again go sequentially.)
 
 ==What are the Prerequisites?== 
 
-Before we can do anything with ReLogo, we need to make sure that we have
+Before we can do anything with !ReLogo, we need to make sure that we have
 a proper installation of Repast Simphony (version 2.0 Beta, released on
 12/3/2010 or later). Instructions on downloading and installing Repast 
 Simphony on various platforms can be found [http://repast.sourceforge.net/download.html here]. After installing go 
-to the default/recommended setting for relogo. After installing the software open it.
+to the default/recommended setting for !ReLogo. After installing the software open it.
 
 If you are opening RepastS for the first time, it asks for a default 
 workspace (refer to Fig. 6). The workspace is a directory used to store 
@@ -115,11 +115,11 @@ https://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%206.JPG
 
 _Fig. 6_
 
-and switch to Relogo prospective using the following step:
+and switch to !ReLogo prospective using the following step:
 
- # Go to the extreme top right corner and select relogo prospective (refer to Fig. 7)
+ # Go to the extreme top right corner and select !ReLogo prospective (refer to Fig. 7)
  # If it  is not available, click  on the double arrow to get a drop down menu (refer to Fig. 8)
- # Select Relogo prospective by clicking it (refer to Fig. 8)
+ # Select !ReLogo prospective by clicking it (refer to Fig. 8)
 
 http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%207.jpg
 
@@ -142,7 +142,7 @@ The Elements are as follows:
 
  # New, Save, Save All, Print (Left to Right)
  # Bug, Run (Left to Right)
- # New Relogo Project, Turtle, Link Patch Observer (Left to Right)
+ # New !ReLogo Project, Turtle, Link Patch Observer (Left to Right)
  # Prospective
  # Project Explorer
  # Working Space
@@ -158,9 +158,9 @@ Let us look at various steps in making this model.
 The first thing you need to do while making a model is make a new 
 project. This can be done by various means : 
 
- # _File >> New >> Relogo Project_ (refer to Fig. 10)
- # _New Project Button >> Relogo Project_ (refer to Fig. 11)
- # Click on the _New Relogo Project_ icon (refer to Fig.11) 
+ # _File >> New >> !ReLogo Project_ (refer to Fig. 10)
+ # _New Project Button >> !ReLogo Project_ (refer to Fig. 11)
+ # Click on the _New !ReLogo Project_ icon (refer to Fig.11) 
 
 http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%2010.JPG
 
@@ -199,9 +199,9 @@ Let us see what is a turtle and how can we add one in our project.
 "Turtles" or "Agents" are the basic building blocks of a multi-agent model. We also need "Ant" type turtles. We will first define the behavior of these ants using simple rules which were explained above and in further sections we will see how to create them and change their behaviors.
 
 Let us first see how to add a turtle class to your project. 
-Select _project explorer >> followTheLEader >> src >> followtheleader.relogo then you can follow any of the two methods:
+Select _project explorer >> followTheLEader >> src >> followtheleader.!ReLogo then you can follow any of the two methods:
 
- # _Right Click on followtheleader.relogo >> New >> Turtle_ (refer to Fig. 15)
+ # _Right Click on followtheleader.!ReLogo >> New >> Turtle_ (refer to Fig. 15)
  # Click on the _New Turtle_ button. (refer to Fig. 15)
  
 http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%2015.jpg
@@ -219,7 +219,7 @@ http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%2016.jpg
 _Fig. 16_
 
 After doing this, check your project's Directory structure, it will have a new class in the _followTheLeader >> src >> 
-followtheleader.relogo_ with the name "Ant.groovy" (refer to Fig. 17) 
+followtheleader.!ReLogo_ with the name "Ant.groovy" (refer to Fig. 17) 
 
 http://cscs-repast-demos.googlecode.com/svn/wiki/Images_Mudit/Fig.%2017.jpg
 
@@ -294,8 +294,8 @@ def moveLeader()
 }}} 
 
 If a "Leader" ant has to move, it will face the center of the food pile, using the function _facexy(8,0)_. facexy(x,y) will make the turtle face towards a point given by (x,y) coordinates. For other such functions and details, view 
-[http://repast.sourceforge.net/docs/api/relogo/index.html this], infact it is advisable that is you are reading the tutorial online open the above mentioned link and 
-[http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html this]
+[http://repast.sourceforge.net/docs/api/!ReLogo/index.html this], infact it is advisable that is you are reading the tutorial online open the above mentioned link and 
+[http://repast.sourceforge.net/docs/api/!ReLogo/!ReLogoPrimitives.html this]
 
 Similarly, _random(2)_ is used to generate random number 0 or 1. 
 _random(n)_ generates random numbers in the interval (0,n]. Similarly, _random(dev)_ will generate random numbers less than "dev". We will get back on to how the variable "dev" is set later. 
@@ -459,10 +459,10 @@ def setFollower()
 
 }}}
 
-*Note:* The terms "turtle" and "ant" are used interchangeably through out the guide. Both refer to "agents", turtle is a general term related to modeling using Relogo, whereas, ant is specific to this model.
+*Note:* The terms "turtle" and "ant" are used interchangeably through out the guide. Both refer to "agents", turtle is a general term related to modeling using !ReLogo, whereas, ant is specific to this model.
 
 Comment:You can have more than one type of turtles in your models. 
-[GuidingBots] and Zombies are two such models. You can add a new turtle type following the steps mentioned above. You can then add a behavior and you can even make turtles interact and change each others' behavior. Go through the [GuidingBots] documentation of Relogo getting started guide [http://repast.sourceforge.net/docs/ReLogoGettingStarted.pdf Zombies] for details.
+[GuidingBots] and Zombies are two such models. You can add a new turtle type following the steps mentioned above. You can then add a behavior and you can even make turtles interact and change each others' behavior. Go through the [GuidingBots] documentation of !ReLogo getting started guide [http://repast.sourceforge.net/docs/!ReLogoGettingStarted.pdf Zombies] for details.
 
 Let us now look at what are patches?
      
@@ -736,7 +736,7 @@ Let us first look at the code
 
 
 public class UserGlobalsAndPanelFactory extends 
-AbstractReLogoGlobalsAndPanelFactory{
+Abstract!ReLogoGlobalsAndPanelFactory{
 	public void addGlobalsAndPanelComponents(){
 	
 		addButtonWL("setup", "Setup")
@@ -1222,11 +1222,11 @@ http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%0261
 
 ==What other such documents are available?==
 
-You can check out the Relogo Getting Started guide 
-[http://repast.sourceforge.net/docs/ReLogoGettingStarted.pdf here]. It 
-is an excellent piece of text for starting with relogo. You can also 
-check other Relogo models and their Model Description and documentation 
-[http://code.google.com/p/cscs-repast-demos/wiki/RepastSReLogo here]. 
+You can check out the !ReLogo Getting Started guide 
+[http://repast.sourceforge.net/docs/!ReLogoGettingStarted.pdf here]. It 
+is an excellent piece of text for starting with !ReLogo. You can also 
+check other !ReLogo models and their Model Description and documentation 
+[http://code.google.com/p/cscs-repast-demos/wiki/RepastS!ReLogo here]. 
  
 ==Where to learn more about RepastS?==
 
