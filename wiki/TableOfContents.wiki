@@ -20,7 +20,7 @@
     * [Moth_Basic Moth (Basic)]
     * [Moth_Advanced Moth (Advanced)]
     * [Mousetraps]
-    * [N_Bodies N--Bodies]
+    * [N_Bodies N-Bodies]
     * [RandomChains Random Chains]
     * [RandomWalk Random Walk]
     * [Rebellion]
