@@ -36,6 +36,6 @@ What mass/G variables are most conducive to the formation of stable orbits aroun
 
 = Sources =
 
-http://ccl.northwestern.edu/netlogo/models/N-Bodies
-http://en.wikipedia.org/wiki/N-body_problem
-http://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+  # http://ccl.northwestern.edu/netlogo/models/N-Bodies
+  # http://en.wikipedia.org/wiki/N-body_problem
+  # http://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
