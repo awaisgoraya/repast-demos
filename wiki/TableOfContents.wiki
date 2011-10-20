@@ -15,6 +15,7 @@
     * [FollowTheLeader Follow The Leader]
     * [GameOfLife Game of Life]
     * [GridLock]
+    * [GuidingBots Guiding Bots]
     * [MarkAndWalk]
     * [Moth_Basic Moth (Basic)]
     * [Moth_Advanced Moth (Advanced)]
