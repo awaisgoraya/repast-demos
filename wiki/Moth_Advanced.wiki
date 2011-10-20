@@ -40,12 +40,12 @@ The following video gives you a visual picture of the Moths' behavior towards li
 
 ==Moth (A bit of Biology)==
 
-Moth is an insect closely related to the butterfly, both being of the order Lepidoptera. Moths form the majority of this order; there are thought to be 150,000 to 250,000 different species of moth (about ten times the number of species of butterfly), with thousands of species yet to be described.Most species of moth are nocturnal, but there are crepuscular and diurnal species.[1]
+Moth is an insect closely related to the butterfly, both being of the order Lepidoptera. Moths form the majority of this order; there are thought to be 150,000 to 250,000 different species of moth (about ten times the number of species of butterfly), with thousands of species yet to be described.Most species of moth are nocturnal, but there are crepuscular and diurnal species.
 
 
 ==Moth and Light Source==
 
-Moths are frequently found to circle artificial lights, although the reason for this behavior remains unknown. One hypothesis advanced to explain this behavior is that moths use a technique of celestial navigation called transverse orientation. By maintaining a constant angular relationship to a bright celestial light, such as the Moon, they can fly in a straight line. Celestial objects are so far away, that even after traveling great distances, the change in angle between the moth and the light source is negligible; further, the moon will always be in the upper part of the visual field or on the horizon. When a moth encounters a much closer artificial light and uses it for navigation, the angle changes noticeably after only a short distance, in addition to being often below the horizon.[2]
+Moths are frequently found to circle artificial lights, although the reason for this behavior remains unknown. One hypothesis advanced to explain this behavior is that moths use a technique of celestial navigation called transverse orientation. By maintaining a constant angular relationship to a bright celestial light, such as the Moon, they can fly in a straight line. Celestial objects are so far away, that even after traveling great distances, the change in angle between the moth and the light source is negligible; further, the moon will always be in the upper part of the visual field or on the horizon. When a moth encounters a much closer artificial light and uses it for navigation, the angle changes noticeably after only a short distance, in addition to being often below the horizon.
 
 -----
 
@@ -69,7 +69,7 @@ The guiding algorithm is fairly simple, the model has two different types of mot
 The moths wander aimlessly in the area, as soon as a moth senses light intensity, it tries to move to a point where there is light intensity. The light source size and the intensity are both adjustable by the user. The population of the moth's can be changed by the user. Initial version does not have a turn angle control but you can add one. Check out Extending the model section for helps, tips and hints on the same. The number of light source are also adjustable. Please refer to the User Panel description for details.
 
 
-Let us first start by talking about [https://repast-demos.googlecode.com/browse/svn/trunk/demos/Moth_Advance/src/moth_advance/relogo/Moth.groovy moth.groovy]. This defines the characteristics of a moth.
+Let us first start by talking about [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/Moth.groovy Moth.groovy]. This defines the characteristics of a moth.
 
 The first thing that we need to check is weather the mote is in the vicinity on any light source or not. This is done by checking weather the there is a light source in radius of (size of the source + intensity) from the moth. This is checked by the following code segment.
 
