@@ -12,6 +12,7 @@
     * [ElFarol El Farol]
     * [Ethnocentrism]
     * [Fire]
+    * [FollowTheLeader Follow The Leader]
     * [GameOfLife Game of Life]
     * [GridLock]
     * [MarkAndWalk]
@@ -24,4 +25,6 @@
     * [Rebellion]
     * [SmallWorld Small World]
     * [Snake]
+    * [StupidModel Stupid Model(s)]
+    * [Termites]
     

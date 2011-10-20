@@ -1,0 +1,14 @@
+#summary Stupid Model.
+#sidebar TableOfContents
+
+= Summary = 
+
+ * Model        : Stupid Model
+ * Platform     : RepastS Java
+ * Version(s)	: Repast Simphony 2.0
+ * Download     : http://repast-demos.googlecode.com/files/StupidModels-1.0.zip
+ * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/StupidModel (1-16)
+ * Documentation : This Wiki Page
+ * Author       : Richard Oliver Legendi
+ 
+--------
