@@ -194,7 +194,7 @@ The model can be used as reference and a multi-robot de mining simulation can be
 
 An feature that can be incorporated in the model is a slider for increasing the catching distance of the bug catcher. In this model the machine only catches bugs in the Moore's neighborhood. 
 
-The user can modify the code and use it to catch bugs in even larger area. A similar implementation can be found in both Moth (Advanced) and Moth_Basic models.
+The user can modify the code and use it to catch bugs in even larger area. A similar implementation can be found in both [Moth_Advanced Moth (Advanced)] and [Moth_Basic Moth (Basic)] models.
 
 ==Surrounding Forbidden Area==
 
