@@ -8,7 +8,7 @@
  * Version(s)	: Repast Simphony 2.0
  * Download     : http://repast-demos.googlecode.com/files/DiscreteEventSim-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/DiscreteEventSim
- * Documentation : This Wiki Page & PDF in project docs directory
+ * Documentation : PDF in project docs directory
  * Author       : Tim Schweda
 
 --------
