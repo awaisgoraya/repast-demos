@@ -163,7 +163,7 @@ Rest of the code is either unedited or self - explanatory. Although [http://code
 
 ==User Panel==
 
-http:/repast-demos.googlecode.com/svn/wiki/moth/moth_advance_panel.jpg
+https://repast-demos.googlecode.com/svn/wiki/moth/moth_advance_panel.jpg
 
  * *Push Button (that rebounds)* 
       
