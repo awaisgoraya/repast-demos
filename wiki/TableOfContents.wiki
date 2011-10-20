@@ -16,5 +16,5 @@
     * [GridLock]
     * [MarkAndWalk]
     * [Moth_Basic Moth (Basic)]
-    * [Moth_Advance Moth (Advanced)]
+    * [Moth_Advanced Moth (Advanced)]
     * [Mousetraps]
