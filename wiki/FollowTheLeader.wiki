@@ -294,8 +294,8 @@ def moveLeader()
 }}} 
 
 If a "Leader" ant has to move, it will face the center of the food pile, using the function _facexy(8,0)_. facexy(x,y) will make the turtle face towards a point given by (x,y) coordinates. For other such functions and details, view 
-[http://repast.sourceforge.net/docs/api/!ReLogo/index.html this], infact it is advisable that is you are reading the tutorial online open the above mentioned link and 
-[http://repast.sourceforge.net/docs/api/!ReLogo/!ReLogoPrimitives.html this]
+[http://repast.sourceforge.net/docs/api/relogo/index.html this], infact it is advisable that is you are reading the tutorial online open the above mentioned link and 
+[http://repast.sourceforge.net/docs/api/relogo/!ReLogoPrimitives.html this]
 
 Similarly, _random(2)_ is used to generate random number 0 or 1. 
 _random(n)_ generates random numbers in the interval (0,n]. Similarly, _random(dev)_ will generate random numbers less than "dev". We will get back on to how the variable "dev" is set later. 
