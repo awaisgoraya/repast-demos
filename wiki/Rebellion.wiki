@@ -47,18 +47,18 @@ Source files and description:
 
   * src/rebellion/*Constants.java* : list of constants
   * src/rebellion/*Cop.java* : class for cop
-  * src/rebellion/*CoverageCounter.java* : counts number of people in different states; used for data sets and charts in GUI Scenario Tree
+  * src/rebellion/*!CoverageCounter.java* : counts number of people in different states; used for data sets and charts in GUI Scenario Tree
   * src/rebellion/*Person.java* : class for person
-  * src/rebellion/*RebellionContextBuilder.java* : set up environment initially
+  * src/rebellion/*!RebellionContextBuilder.java* : set up environment initially
   * src/rebellion/*SMUtils.java* : miscellaneous functions
   * src/rebellion.observer/*PersonStyleOLG2D.java* : color assignment for cop/person
 
 Remember to setup the grid and space projections in the resource folder "Rebellion.rs": in context node, add projection for type=continuous space and id=space, and add projection for type=grid and id=grid.  The id's can be found in the file Constants.java.  Once we run the Rebellion model, set up the Scenario Tree as follow:
 
-  * *Data Loaders* : Use RebellionContextBuilder
+  * *Data Loaders* : Use !RebellionContextBuilder
   * *Display*: Projection with grid, agents are Person and Cop, and agent style is  rebellion.observer.PersonStyleOLG2D for both Person and Cop
-  * *Data Sets*: One for each active, quiet, and jailed people count from CoverageCounter.  Include a Title column for each data set so the chart will treat the counts in each data set as one series.  For example for active people, the Agent Class is CoverageCounter, agent mappings have column name Tick, ActivePeopleCount (source is getActivePeopleCount()), and Title (use Add $\rightarrow$ Add Using Wizards, and set value="Number of Active People")
-  * *Charts*: One for each active, quiet, and jailed people data sets.  For example for active people count, X-Axis is Tick, Y-Axis Value is ActivePeopleCount with Series Name as Title.
+  * *Data Sets*: One for each active, quiet, and jailed people count from !CoverageCounter.  Include a Title column for each data set so the chart will treat the counts in each data set as one series.  For example for active people, the Agent Class is !CoverageCounter, agent mappings have column name Tick, !ActivePeopleCount (source is getActivePeopleCount()), and Title (use Add -> Add Using Wizards, and set value="Number of Active People")
+  * *Charts*: One for each active, quiet, and jailed people data sets.  For example for active people count, X-Axis is Tick, Y-Axis Value is !ActivePeopleCount with Series Name as Title.
 
 = Model Parameters =
 
