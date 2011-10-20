@@ -8,10 +8,12 @@
  * Version(s)	: Repast Simphony 2.0
  * Download     : http://repast-demos.googlecode.com/files/Moth_basic-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Moth_basic
- * Documentation : None
+ * Documentation : This Wiki Page
  * Author       : Mudit Raj Gupta
  
 --------
 
 
 https://repast-demos.googlecode.com/svn/wiki/moth/Basic(Index).JPG
+
+See the [BugCatcher Bug Catcher] and [MothAdvanced Moth (Advanced)] for related discussion.
