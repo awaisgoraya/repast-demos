@@ -16,4 +16,4 @@
 
 https://repast-demos.googlecode.com/svn/wiki/moth/Basic(Index).JPG
 
-See the [BugCatcher Bug Catcher] and [MothAdvanced Moth (Advanced)] for related discussion.
+See the [BugCatcher Bug Catcher] and [Moth_Advanced Moth (Advanced)] for related discussion.
