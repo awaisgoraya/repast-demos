@@ -374,7 +374,7 @@ def setFollower()
 
 The code is quite self explanatory, but the importance of this segment is, when are these functions called? Well, they are called from the "!UserObserver.groovy" at the time of creation of ants. We will get back to that later.
 
-Now we have defined the behavior of an ant, check out the [**] marked section in the above question for the overall behavior. This is quite similar to the one we described in Whar are we modeling?
+Now we have defined the behavior of an ant, check out the ** marked section in the above question for the overall behavior. This is quite similar to the one we described in Whar are we modeling?
 
 The overall "Ant.groovy" code should look like this : 
 {{{
