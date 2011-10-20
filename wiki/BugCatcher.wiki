@@ -112,7 +112,7 @@ The two new functions used here are machinesHere() and die(). Both are used pret
 
 }}} 
 
-Next we move on to a section which has some important code segment. This can be checked out at [http://code.google.com/p/repast-demos/source/browse/trunk/demos/BugCatcher/src/bugcatcher/relogo/UserObserver.groovy USerObserver.groovy]
+Next we move on to a section which has some important code segment. This can be checked out at [http://code.google.com/p/repast-demos/source/browse/trunk/demos/BugCatcher/src/bugcatcher/relogo/UserObserver.groovy UserObserver.groovy]
 
 In this we have two basic functions *setup()* and *go()*. In the setup() function clearAll() is used to clear the space. A user-entered number of bugs of "bug" shape are created at random X and Y coordinates.
 
