@@ -11,7 +11,7 @@
  * Documentation : This Wiki Page & PDF in project docs directory
  * Author       : Tim Schweda
  
-https://repast-demos.googlecode.com/svn/trunk/demos/Gridlock/docs/gridlock.png
+https://repast-demos.googlecode.com/svn/trunk/demos/GridLock/docs/gridlock.png
 
 = Contents =
 <wiki:toc max_depth="2" />
