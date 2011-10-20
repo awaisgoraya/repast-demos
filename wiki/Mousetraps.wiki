@@ -36,6 +36,6 @@ First select values for *# Balls Per Trap* and *Max. Distance*, the maximum dist
 
   * Modify the model so that a ball can snap two traps if it lands on an edge between two patches.
 
-= ReLogo Features =
+= !ReLogo Features =
 
 The *stop* method is useful for terminating a simulation after certain criteria are satisfied.  In this model, it is called when there are no more balls remaining since no additional mousetraps can be snapped, and thus it makes no sense to continue running the simulation when nothing is happening.  Other possible reasons for wanting to terminate a simulation may include reaching a fixed number of time steps, having the number of turtles exceed a threshold value (since the turtle population may be tending towards infinity), or achieving equilibrium in the modeled system.
