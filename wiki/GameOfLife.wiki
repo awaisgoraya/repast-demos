@@ -1,14 +1,14 @@
-#summary Fire Model.
+#summary Game of Life Model.
 #sidebar TableOfContents
 
 = Summary = 
 
- * Model        : Fire Model
- * Platform     : RepastS Java
+ * Model        : Game of Life Model
+ * Platform     : RepastS !Relogo
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/Fire-1.0.zip
- * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Fire
+ * Download     : http://repast-demos.googlecode.com/files/GameOfLife-1.0.zip
+ * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/GameOfLife
  * Documentation : This Wiki Page & PDF in project docs directory
- * Author       : Grace Lin
+ * Author       : Tim Schweda
  
 --------
