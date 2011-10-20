@@ -1207,15 +1207,11 @@ The user can try and do test runs to check the relationship of
 
 http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2060.jpg
 
-==How to add Parameters of Simulation?==
+==How to add Parameters to the Simulation?==
 
-http://repast-demos.googlecode.com/svn/wiki/followTheLeader/Fig.%2061.JPG
+http://repast-demos.goog
 
-==How to extend the model?==
-
-=Where to look for after this?=
-
-==What other such documents are available?==
+=What other such documents are available?=
 
 You can check out the !ReLogo Getting Started guide 
 [http://repast.sourceforge.net/docs/!ReLogoGettingStarted.pdf here]. It 
