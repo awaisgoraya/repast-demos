@@ -11,6 +11,8 @@
  * Documentation : This Wiki Page & PDF in project docs directory
  * Author       : Tim Schweda
  
+---------
+ 
 https://repast-demos.googlecode.com/svn/trunk/demos/GameOfLife/docs/gameoflife.png
 
 = Contents =
