@@ -10,6 +10,8 @@
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/BugCatcher
  * Documentation : This Wiki Page
  * Author       : Mudit Raj Gupta
+ 
+ https://repast-demos.googlecode.com/svn/wiki/bugCatcher/main.jpg
 
 --------
 
