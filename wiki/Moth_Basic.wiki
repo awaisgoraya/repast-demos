@@ -16,4 +16,5 @@
 
 https://repast-demos.googlecode.com/svn/wiki/moth/Basic(Index).JPG
 
-See the [BugCatcher Bug Catcher] and [Moth_Advanced Moth (Advanced)] for related discussion.
+This is a simpler version of the Moth model. See the
+[Moth_Advanced Moth (Advanced)] and [BugCatcher Bug Catcher] pages.
