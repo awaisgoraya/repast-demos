@@ -27,8 +27,8 @@ After selecting a *Color* for coloring patches and an initial *Pattern* from the
   * *Random100*:  100 random patches
   * *Random300*:  300 random patches
   * *Random500*:  500 random patches
-  * *OppositeEdges*:  left and right edges (width = 4)
-  * *AdjacentEdges*:  left and top edges (width = 4)
+  * *!OppositeEdges*:  left and right edges (width = 4)
+  * *!AdjacentEdges*:  left and top edges (width = 4)
   * *Spot*:  7x7 square in the center
   * *Grid*:  patches in every third row and column
 
@@ -44,7 +44,7 @@ The values *maxConcentration* and *minConcentration* measure the maximum and min
 
   * Add some turtles to the model to execute some behavior that makes the diffusion more interesting.
 
-= ReLogo Features =
+= !ReLogo Features =
 
 The Diffusion model showcases two different methods for modifying @Diffusible patch variables:  *diffuse* and *diffusibleMultiply*.  The *diffuse* method takes as inputs the name of the patch variable as a String and a double value between 0 and 1 representing the fraction of the patch variable to be shared with neighboring patches.  The amount to be shared is split equally among all neighbors.  For the *diffusibleMultiply* method, the first input is also a String of the patch variable's name, but the second input is a double by which the @Diffusible variable of each patch is multiplied.  Similar methods exist for dividing, adding to, and subtracting from patch variables:  *diffusibleDivide*, *diffusibleAdd*, and *diffusibleSubtract*.  There is also a *diffusibleApply* method, where the second input is a DoubleFunction that can be applied to the patch variable.
 
