@@ -224,6 +224,6 @@ User can try implementing the initial hypothesis about moth locomotion. The deta
 
 =References=
 
-http://en.wikipedia.org/wiki/Moth
-[http://www.npr.org/templates/story/story.php?storyId=12903572 Why Moths are attracted to flames?]
-http://ccl.northwestern.edu/netlogo/models/Moths
+   # http://en.wikipedia.org/wiki/Moth
+   # [http://www.npr.org/templates/story/story.php?storyId=12903572 Why Moths are attracted to flames?]
+   # http://ccl.northwestern.edu/netlogo/models/Moths
