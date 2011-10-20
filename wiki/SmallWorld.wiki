@@ -34,10 +34,10 @@ Begin by selecting values for *# Nodes* and *Initial Node Degree* to determine t
 
   * Determine which parameter settings tend to yield disconnected graphs.  Modify the model to ensure that a rewired graph is always connected.
 
-= ReLogo Features =
+= !ReLogo Features =
 
 This model makes use of several methods for working with links, including *createLinksWith* for creating new links, *linkNeighbors* for getting a node's neighbors, and *linkNeighborQ* for determining whether or not two nodes are neighbors.  These methods can only be used with undirected links, however.  To query whether there is a directed link from one node to another, for example, either *inLinkNeighborQ* or *outLinkNeighborQ* must be used, depending on which node is asking.
 
 = References =
 
-  * Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of ‘small-world’ networks. _Nature, 393_, 440–442.
+  * Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of 'small-world' networks. _Nature, 393_, 440-442.
