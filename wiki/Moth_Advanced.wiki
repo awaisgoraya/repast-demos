@@ -159,11 +159,11 @@ Ask() function (in the code segment below) is also used. Ask takes two parameter
 
 }}}  
 
-Rest of the code is either unedited or self - explanatory. Although [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/UserGlobalsAndPanelFactory.groovy UserGlobalsAndPanelFacrory.groovy] is dealt with in the next section.
+Rest of the code is either unedited or self - explanatory. Although [http://code.google.com/p/repast-demos/source/browse/trunk/demos/Moth_Advance/src/moth_advance/relogo/UserGlobalsAndPanelFactory.groovy UserGlobalsAndPanelFactory.groovy] is dealt with in the next section.
 
 ==User Panel==
 
-https://repast-demos.googlecode.com/svn/wiki/moth/moth_advance_panel.jpg
+https://repast-demos.googlecode.com/svn/wiki/moth/moth_advanced_panel.jpg
 
  * *Push Button (that rebounds)* 
       
@@ -203,7 +203,7 @@ This model can be used as a basic block for swarm surveillance robots. The robot
 
 =Extending the Model=
 
-==Plots, Plug-ins, DataSets and Outputters==
+==Plots, Plug-ins, !DataSets and Outputters==
 
 The model can be extended by adding various other plots and linking to various plugins. The various tutorials on plugins will be available soon. The other plots that can be incorporated are - A histogram of values of number of turtles in various regions. The user can think about different such plots. 
   
@@ -224,7 +224,6 @@ User can try implementing the initial hypothesis about moth locomotion. The deta
 
 =References=
 
-
-# http://en.wikipedia.org/wiki/Moth  
-# [http://www.npr.org/templates/story/story.php?storyId=12903572 Why Moths are attracted to flames?]
-# http://ccl.northwestern.edu/netlogo/models/Moths
+http://en.wikipedia.org/wiki/Moth
+http://www.npr.org/templates/story/story.php?storyId=12903572 Why Moths are attracted to flames?]
+http://ccl.northwestern.edu/netlogo/models/Moths
