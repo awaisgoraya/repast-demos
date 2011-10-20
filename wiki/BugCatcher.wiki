@@ -103,7 +103,7 @@ If the bug is caught in any of the machines, it is electrocuted. In the process 
 
 }}}
 
-The two new functions used here are [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Patch.html#turtlesHere%28%29 machinesHere()] and [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Link.html#die%28%29 die()]. Both are used pretty commonly. You can check out the whole RepastS Relogo API [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/ReLogoPrimitives.html here]. Another statement which is worth a mention is the label statement. It is use to create fake "zap" sound or effect which is produced when the bug dies. timeleft is a variable that is declared above.
+The two new functions used here are machinesHere() and die(). Both are used pretty commonly. You can check out the whole RepastS Relogo API [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html here]. Another statement which is worth a mention is the label statement. It is use to create fake "zap" sound or effect which is produced when the bug dies. timeleft is a variable that is declared above.
 
 {{{
 
@@ -112,9 +112,9 @@ The two new functions used here are [file:///C:/RepastSimphony-2.0-beta/docs/ReL
 
 }}} 
 
-Next we move on to a section which has some important code segment. This can be checked out at [http://code.google.com/p/cscs-repast-demos/source/browse/mudit/BugCatcher/src/bugcatcher/relogo/UserObserver.groovy USerObserver.groovy]
+Next we move on to a section which has some important code segment. This can be checked out at [http://code.google.com/p/repast-demos/source/browse/trunk/demos/BugCatcher/src/bugcatcher/relogo/UserObserver.groovy USerObserver.groovy]
 
-In this we have two basic functions *setup()* and *go()*. In the setup() function [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#clearAll%28%29 clearAll()]. To clear the space. A user-entered number of bugs of "bug" shape are created at random X and Y coordinates.
+In this we have two basic functions *setup()* and *go()*. In the setup() function clearAll() is used to clear the space. A user-entered number of bugs of "bug" shape are created at random X and Y coordinates.
 
 {{{
 
@@ -135,7 +135,7 @@ def setup(){
 
 }}}
 
- The details of [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#setDefaultShape%28Class,%20String%29 setDefaultShape()], [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Observer.html#createTurtles%28int%29 createMoths()], [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/repast/simphony/relogo/Turtle.html#setxy%28Number,%20Number%29 setxy()] and other functions can be found [file:///C:/RepastSimphony-2.0-beta/docs/ReLogoDocs/ReLogoPrimitives.html here]
+ The details of other functions can be found in the relogo reference [http://repast.sourceforge.net/docs/api/relogo/ReLogoPrimitives.html here]
 
 If you find the concept of shapes abstract, check out the shapes folder in your project explorer task bar. You will find the details of the shapes that are already made for you. You can also add your custom made shapes. These shapes can be applied to your agents just by using their names. An example of the same is in the code segment above. "bug" is one of the shapes in the shape folder.
 
@@ -144,8 +144,7 @@ Another line that is worth a mention is the "size=3" statement. This sets the si
 
 ==User Panel==
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/BugCatcher/BugCatcher%28panel%29.JPG
-
+https://repast-demos.googlecode.com/svn/wiki/bugCatcher/panel.jpg
 
  * *Push Button (that rebounds)* 
       
@@ -167,7 +166,7 @@ https://cscs-repast-demos.googlecode.com/svn/wiki/BugCatcher/BugCatcher%28panel%
 
 ==Data Sets, Outputters and External Plugin==
 
-A data set is added to the model. Same data set is used to create model outputter. Model Outputter is also added. The added model outputter is comma separated values of "Time" and "Bugs Alive". One of the sample output file can be checked [https://code.google.com/p/cscs-repast-demos/source/browse/wiki/BugCatcher/Model%20Output.txt here]
+A data set is added to the model. Same data set is used to create model outputter. Model Outputter is also added. The added model outputter is comma separated values of "Time" and "Bugs Alive". One of the sample output file can be checked [https://repast-demos.googlecode.com/svn/wiki/bugCatcher/Model%20Output.txt here]
 
 Such Outputter can be fed in various external plug-ins
 
@@ -175,13 +174,13 @@ Such Outputter can be fed in various external plug-ins
 
 Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Bugs Alive" on y-axis and "Time" on x-axis is plotted. 
 
-https://cscs-repast-demos.googlecode.com/svn/wiki/BugCatcher/BugCatcher%28plot%29.png
+https://repast-demos.googlecode.com/svn/wiki/bugCatcher/plot.png
 
 For the plot it can be concluded that the bug death is an exponential function. Other plots can also be added, one such example could be an overlay of the graphs showing which machine has killed how many bugs. 
 
 ----
 
-=4. Applications=
+=Applications=
 
 This model can be useful in studying social behavior. It is also useful in studying what could be most suitable position for placing a sink (machine). The model can be extended to fix the position of machines and can be used to find the optimal time for catching bugs.
 
@@ -189,7 +188,7 @@ The model can be used as reference and a multi-robot de mining simulation can be
 
 ----
 
-=5. Extending the Model=
+=Extending the Model=
 
 ==Increasing the Range==
 
@@ -210,10 +209,8 @@ Application specific graphs, outputters and plug in can be incorporated in the g
 
 ----
 
-=6. References=
+=References=
 
- 1. http://en.wikipedia.org/wiki/Bug_zapper
-
- 2. http://home.howstuffworks.com/bug-zapper.htm
-
- 3. http://en.wikipedia.org/wiki/Fly-killing_device
+ # http://en.wikipedia.org/wiki/Bug_zapper
+ # http://home.howstuffworks.com/bug-zapper.htm
+ # http://en.wikipedia.org/wiki/Fly-killing_device
