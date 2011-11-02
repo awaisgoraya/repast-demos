@@ -9,7 +9,7 @@
  * Download     : http://repast-demos.googlecode.com/files/DiscreteEventSim-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/DiscreteEventSim
  * Documentation : PDF in project docs directory
- * Author       : Tim Schweda
+ * Author       : Tim Sweda
 
 --------
 
