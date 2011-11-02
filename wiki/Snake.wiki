@@ -9,7 +9,7 @@
  * Download     : http://repast-demos.googlecode.com/files/Snake-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Snake
  * Documentation : This Wiki Page & PDF in project docs directory
- * Author       : Tim Schweda
+ * Author       : Tim Sweda
  
 https://repast-demos.googlecode.com/svn/trunk/demos/Snake/docs/snake.png
 
