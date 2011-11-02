@@ -9,7 +9,7 @@
  * Download     : http://repast-demos.googlecode.com/files/GridLock-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/GridLock
  * Documentation : This Wiki Page & PDF in project docs directory
- * Author       : Tim Schweda
+ * Author       : Tim Sweda
  
 https://repast-demos.googlecode.com/svn/trunk/demos/GridLock/docs/gridlock.png
 
