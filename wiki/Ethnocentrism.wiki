@@ -9,7 +9,7 @@
  * Download     : http://repast-demos.googlecode.com/files/Ethnocentrism-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/Ethnocentrism
  * Documentation : This Wiki Page & PDF in project docs directory
- * Author       : Tim Schweda
+ * Author       : Tim Sweda
  
 https://repast-demos.googlecode.com/svn/trunk/demos/Ethnocentrism/docs/ethnocentrism.png
 
