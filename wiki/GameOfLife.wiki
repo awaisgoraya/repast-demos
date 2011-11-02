@@ -9,7 +9,7 @@
  * Download     : http://repast-demos.googlecode.com/files/GameOfLife-1.0.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/GameOfLife
  * Documentation : This Wiki Page & PDF in project docs directory
- * Author       : Tim Schweda
+ * Author       : Tim Sweda
  
 ---------
  
