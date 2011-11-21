@@ -176,7 +176,7 @@ Such Outputter can be fed in various external plug-ins
 
 Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Bugs Alive" on y-axis and "Time" on x-axis is plotted. 
 
-https://repast-demos.googlecode.com/svn/wiki/bugCatcher/plot.png
+https://repast-demos.googlecode.com/svn/wiki/bugCatcher/bug_count_plot.png
 
 For the plot it can be concluded that the bug death is an exponential function. Other plots can also be added, one such example could be an overlay of the graphs showing which machine has killed how many bugs. 
 
