@@ -74,7 +74,7 @@ Model Outputter is also added. The added model outputter is comma separated valu
 
 Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Number of Motes" (outside 14 units radius from the center) on y-axis and "Time" on x-axis is plotted.
 
-https://repast-demos.googlecode.com/svn/wiki/areacoverage/plot.png
+https://repast-demos.googlecode.com/svn/wiki/areacoverage/mote_plot.png
 
 For the plot it can be concluded that the number of motes outside a given radius grow exponentially. _Check with many test runs_
 
@@ -303,7 +303,5 @@ Application specific graphs, outputters and plug in can be incorporated in the g
 * http://en.wikipedia.org/wiki/Swarm_robotics
 
 * http://www.swarmrobotic.com/
-
-
 
 
