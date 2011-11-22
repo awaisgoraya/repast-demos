@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <repast.simphony.visualization.engine.DefaultDisplayDescriptor>
   <name>ReLogo Default Display</name>
   <type>TWO_D</type>
@@ -35,16 +36,16 @@
       <string>randomwalk.style.LinkStyle</string>
     </entry>
     <entry>
-      <string>UserLink</string>
-      <string>randomwalk.style.LinkStyle</string>
-    </entry>
-    <entry>
       <string>UndirectedLinks</string>
       <string>randomwalk.style.LinkStyle</string>
     </entry>
     <entry>
       <string>Tracking Network</string>
       <string>randomwalk.style.TrackingLinkStyle</string>
+    </entry>
+    <entry>
+      <string>UserLink</string>
+      <string>randomwalk.style.LinkStyle</string>
     </entry>
   </netStyles>
   <editedNetStyles>
@@ -53,15 +54,15 @@
       <null/>
     </entry>
     <entry>
-      <string>UserLink</string>
-      <null/>
-    </entry>
-    <entry>
       <string>UndirectedLinks</string>
       <null/>
     </entry>
     <entry>
       <string>Tracking Network</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>UserLink</string>
       <null/>
     </entry>
   </editedNetStyles>
@@ -116,6 +117,11 @@
       <attributes/>
       <type>NETWORK</type>
     </repast.simphony.scenario.data.ProjectionData>
+    <repast.simphony.scenario.data.ProjectionData>
+      <id>UserLink</id>
+      <attributes/>
+      <type>NETWORK</type>
+    </repast.simphony.scenario.data.ProjectionData>
   </projections>
   <valueLayers/>
   <visualizationProperties class="repast.simphony.visualization.UnitSizeLayoutProperties">
@@ -126,13 +132,6 @@
       <string>DirectedLinks</string>
       <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
         <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[2]"/>
-        <props/>
-      </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-    </entry>
-    <entry>
-      <string>UserLink</string>
-      <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[5]"/>
         <props/>
       </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
     </entry>
@@ -174,6 +173,13 @@
           </entry>
         </props>
       </repast.simphony.visualization.continuous.ContinuousProjectionDescriptor>
+    </entry>
+    <entry>
+      <string>UserLink</string>
+      <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
+        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[6]"/>
+        <props/>
+      </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
     </entry>
   </projectionDescriptors>
   <props/>
