@@ -89,7 +89,7 @@ This Model Outputter values can be fed in other available external plug-ins.
 
 Various analysis could be carried out with the model, but for demonstration purpose a graph between, "Alive Daughter Motes" on y-axis and "Time" on x-axis is plotted. 
 
-https://repast-demos.googlecode.com/svn/wiki/guidingBots/plot.png
+https://repast-demos.googlecode.com/svn/wiki/guidingBots/mote_count.png
 
 For the plot it can be concluded that the death rate of the daughter motes follows an exponential function. _Check with many test runs_
  
