@@ -10,7 +10,7 @@ import repast.simphony.relogo.UtilityG;
 
 class UserObserver extends BaseObserver{
 
-	def c
+	def c = 0
 	def setup(){
 			clearAll()
 			createWalkers(1){
