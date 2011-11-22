@@ -57,8 +57,8 @@ Remember to setup the grid and space projections in the resource folder "Rebelli
 
   * *Data Loaders* : Use !RebellionContextBuilder
   * *Display*: Projection with grid, agents are Person and Cop, and agent style is  rebellion.observer.PersonStyleOLG2D for both Person and Cop
-  * *Data Sets*: One for each active, quiet, and jailed people count from !CoverageCounter.  Include a Title column for each data set so the chart will treat the counts in each data set as one series.  For example for active people, the Agent Class is !CoverageCounter, agent mappings have column name Tick, !ActivePeopleCount (source is getActivePeopleCount()), and Title (use Add -> Add Using Wizards, and set value="Number of Active People")
-  * *Charts*: One for each active, quiet, and jailed people data sets.  For example for active people count, X-Axis is Tick, Y-Axis Value is !ActivePeopleCount with Series Name as Title.
+  * *Data Sets*: A single aggregate data set with data sources for active, jailed and quiet person counts. The CoverageCounter class provides these values.
+  * *Charts*: One that displays the person counts using the single data set.
 
 = Model Parameters =
 
