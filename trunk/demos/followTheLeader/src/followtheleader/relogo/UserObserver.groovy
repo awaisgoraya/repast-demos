@@ -20,10 +20,10 @@ import repast.simphony.relogo.UtilityG;
 class UserObserver extends BaseObserver{
 
 	//first ant route length
-	def fr
+	def fr = 0;
 	
 	//present ant route length
-	def pr
+	def pr = 0;
 	
 	//sets up the world
 	def setup()
