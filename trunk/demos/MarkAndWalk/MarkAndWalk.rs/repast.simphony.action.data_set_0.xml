@@ -1,0 +1,82 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Data Set</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+  </scheduleParams>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Area Covered</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Area Covered</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V0</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V0</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV0</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V1</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V1</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV1</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V2</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V2</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV2</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V3</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V3</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV3</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V4</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V4</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV4</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>V5</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>V5</id>
+        <className>simulation1.relogo.UserObserver</className>
+        <methodName>getV5</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

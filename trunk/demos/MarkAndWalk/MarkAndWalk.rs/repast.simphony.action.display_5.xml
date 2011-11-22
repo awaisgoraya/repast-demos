@@ -31,11 +31,11 @@
   </editedStyles>
   <netStyles>
     <entry>
-      <string>UserLink</string>
+      <string>DirectedLinks</string>
       <string>simulation1.style.LinkStyle</string>
     </entry>
     <entry>
-      <string>DirectedLinks</string>
+      <string>UserLink</string>
       <string>simulation1.style.LinkStyle</string>
     </entry>
     <entry>
@@ -49,11 +49,11 @@
   </netStyles>
   <editedNetStyles>
     <entry>
-      <string>UserLink</string>
+      <string>DirectedLinks</string>
       <null/>
     </entry>
     <entry>
-      <string>DirectedLinks</string>
+      <string>UserLink</string>
       <null/>
     </entry>
     <entry>
@@ -123,16 +123,16 @@
   </visualizationProperties>
   <projectionDescriptors>
     <entry>
-      <string>UserLink</string>
+      <string>DirectedLinks</string>
       <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[5]"/>
+        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[2]"/>
         <props/>
       </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
     </entry>
     <entry>
-      <string>DirectedLinks</string>
+      <string>UserLink</string>
       <repast.simphony.visualization.engine.DefaultProjectionDescriptor>
-        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[2]"/>
+        <proj reference="../../../../projections/repast.simphony.scenario.data.ProjectionData[5]"/>
         <props/>
       </repast.simphony.visualization.engine.DefaultProjectionDescriptor>
     </entry>
