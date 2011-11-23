@@ -1856,8 +1856,7 @@ No change is made to the model formulation. A graph is added to display the numb
 ==== Data Set of Population Abundance ====
 Start the simulation. We add the new graph as we did it previously through the point & click interface of Repast Simphony.
 
- # Right-click on _Data Sets_ in the _Scenario Tree_, and create a new data set with an id of _Data Set of Population Abundance_ and
-  of the _Aggregate Type_.
+ # Right-click on _Data Sets_ in the _Scenario Tree_, and create a new data set with an id of _Data Set of Population Abundance_ and of the _Aggregate Type_.
 
     https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_general.png
     
