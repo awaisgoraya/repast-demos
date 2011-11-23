@@ -1117,13 +1117,14 @@ If everything goes well, the new dataset should be displayed under the _Data Set
 
  # Right-click on _Charts_ in the _Scenario Tree_, and select _Add Histogram Chart_ from the menu.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/chart_selection.png
- # Type _Histogram of Bug Sizes_ for the name of the new chart. Also make sure _Data Set of Bug Sizes_ and _Size_ is automatically selected as _Data Set_ and _Data To Histogram_, respectively.
+ # Type _Histogram of Bug Sizes_ for the name of the new chart. Also make sure _Data Set of Bug Sizes_ and _Size_ is selected as the _Data Set_ and the _Data To Histogram_, respectively.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_general.png
  # Click _Next_.
  # On the _Histogram Properties_ wizard page we can set the various properties of the histogram the chart should display. Enter _10_ as _Bin Count, _Static_ as the _Histogram Type_, _0_ as _Minimum Value_, _10_ to _Maximum Value_, and _Ignore_ for the _Out of Range Handling_.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_bin_selection.png
  # Click _Next_.
  # On the Chart Properties Wizard page, we can set some display properties for the chart itself. Enter Histogram of Bug Sizes as the _Title_, Bug Size as the _X-Axis_, Count as the _Y-Axis_.
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_chart_props.png
  # Click _Finish_.
  # The data mapping is complete, press _Finish_ to add the new chart.
 
