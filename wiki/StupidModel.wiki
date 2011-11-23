@@ -1189,7 +1189,7 @@ However, Repast Simphony offers a bit friendlier way for these tasks through _Fi
 ==== Define a New Data Set of File Output ====
 Create a new _Data Set_ called _Data Set of File Output_, but unlike before select _Aggregate_ as the data set type.
 An Aggregate Data Set contains data sources that perform some aggregate operation on individual data values. For example,
-calculating the minimum, maximum and mean value over some collection of data. In our case, we want to record the following columns:
+calculating the minimum, maximum and mean values of some collection of data. In our case, we want to record the following columns:
 
  # The current _tick_ of the simulation
  # The minimum size of `Bug` agents
@@ -1202,7 +1202,7 @@ In the _Standard Sources_ tab, select the _Tick Count_ source if it is not alrea
 
 On the _Method Data Sources_ tab, click the button _Add_. A new line will appear in the data sources table. Double click on the
 _Agent Type_ column and select _Bug_ from the list. Double click on the _Method_ column and select _getSize_ from the list.
-Double click on the _Aggregate Operation_ column and select _Min_ from the list. Lastly, double click on the _Source Name_ column and enter _Min Size_. Repeat these steps, to create entries for the Min, Max and Mean data sources.
+Double click on the _Aggregate Operation_ column and select _Min_ from the list. Lastly, double click on the _Source Name_ column and enter _Min Size_. Repeat these steps, to create entries for the Min, Max and Mean Bug Size data sources.
 
   https://repast-demos.googlecode.com/svn/wiki/StupidModel/bug_size_stats.png
 
@@ -1212,23 +1212,32 @@ operations will then be recorded.
 
 Press _Next_ then _Finish_ to create the new dataset.
 
-==== Define a New File Outputter ====
+==== Define a New File Sink ====
 
-Right-click on _Outputters_ in the _Scenario Tree_, and select _Add File Outputter_ from the menu.
+Right-click on _Text Sinks_ in the _Scenario Tree_, and select _Add File Sink_ from the menu.
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_new_file_outputter.png
+https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_file_sink.png
 
-Select _Dat Set of File Output_ as _Data Set Id_. Note that the _File Columns_ list is populated with the available elements. Add all of the needed columns in the list to the right to specify which ones to save into the file.
+Select _Data Set of File Output_ as _Data Set Id_. Beneath the _Data Set Id_ combo box, you will see two columns.
+The first column contains the sources available to the file sink. The second column contains the data sources
+that will be provide data to the file sink. Using the arrow buttons in the center, data sources can be moved
+between the columns. The up and down arrow buttons can be used to set the column order for the data sources
+in the file output.
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_file_outputter_columns.png
+Select and move the data sources so that they resemble the following image.
 
-Click on _Next_. On the new wizard page several outputter settings may be specified, e.g., to include headers in the output file, append to the file instead of deleting its contents if it exists, and so on. It is also possible to append different postfixes (like the timestamp) to the end of the file to prevent accidental data loss.
+https://repast-demos.googlecode.com/svn/wiki/StupidModel/file_sink_data.png
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/specific_file_output_settings.png
+In this configuration, the file sink will write the tick, min, max and mean
+values to a file.
 
-Click finish, and the new _File Outputter_ should appear under the _Outputter_ section of the _Scenario Tree_.
+Click on _Next_. On the new wizard page file sink settings may be specified, e.g., append different postfixes (like the timestamp) to the end of the file name to prevent accidental data loss.
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/new_file_outputter_location.png
+https://repast-demos.googlecode.com/svn/wiki/StupidModel/file_sink_props.png
+
+Click _Finish_, and the new _File Sink_ should appear under the _Text Sinks_ section of the _Scenario Tree_.
+
+https://repast-demos.googlecode.com/svn/wiki/StupidModel/added_file_sink.png
 
 It is all done!
 
