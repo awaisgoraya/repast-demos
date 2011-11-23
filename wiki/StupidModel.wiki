@@ -1102,15 +1102,11 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_datasets_cha
 We need a histogram, so first we have to _collect the data_ that will be shown in the chart:
 
  # Right-click on _Data Sets_ in the _Scenario Tree_, and select _Add Data Set_ from the menu.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_first_data_set.png
- # The _Data Set Editor_ shows up. On the first page, we can assign a name for the new data set. Type _Data Set of Bug Sizes_ as its name, and select _Bug_ as the _Agent Class_.
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_data_set.png
+ # The _Data Set Editor_ shows up. On the first page, we can assign a name for the new data set. Type _Data Set of Bug Sizes_ as its id, and select Non-Aggregate as the Data Set Type. Non-Aggregate data sets are used to record a single property for each of object of a certain type. In this case, we want to record the bug size for each Bug agent. If the data were to be formatted in spreadsheet or tabular format, each row would represent a single bug and the column would contain the size for the bugs. Click Next.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/creating_histogram_dataset.png
- # The next wizard page allows us to create different _mappings_ for the dataset, i.e., declare what kind of data should it produce. Basically, there are simple mappings (e.g., a sequence of all agent variable values), aggregated mappings (e.g., sum, min, max, variance of values), and custom mappings that can be created through a separate wizard by implementing them e.g. in BeanShell. Please refer to the Repast Documentation about the details of this topic. For the current model, we need a simple sequence of values (i.e., the enumeration of `size` values of the agents). Press _Add_ and select _Add Simple Mapping_.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/select_histogram_simple_mapping.png
- # A new line in the table above the buttons should appear. Click on the _Source_ component of the new line, and a drop-down list should appear. Select `getSize()` from the list. This automatically updates the _Column Name_ attribute as well.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_histogram_simple_mapping.png 
- # Click on _Next_.
- # If you would like, you can modify the refresh rate of the visualization on this wizard page (like when we created the grid visualization). Since the default settings are perfect for this demo model, click click _Finish_.
+ # The next wizard page allows us choose the data source for the data in this data set. A data source is anything that produces data. The standard sources tab includes some standard sources that produces the current tick, random seed and so forth. The method data sources tabl allows us to choose the result of a particular method as a source of data. Click the Method Data Sources tab and choose Bug as the Source Class. Click _Add._ A new line in the table above the buttons should appear. Double click on the method cell of the newly added row. A combo box should should appear. Select the getSize method. By choosing Bug and the getSize method, this Data Set will call getSize on every Bug in the simulation and record the result. Click _Next_.
+ # If you would like, you can modify the refresh rate of the data collection on this wizard page (like when we created the grid visualization). Since the default settings are perfect for this demo model, click click _Finish_.
 
 If everything goes well, the new dataset should be displayed under the _Data Sets_ section of the _Scenario Tree_ and is ready to use!
 
