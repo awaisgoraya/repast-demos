@@ -1,6 +1,6 @@
 /*
  * Version info:
- *     $HeadURL: https://cscs-repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_10_model_10/test/stupidmodel/observer/TestBugStyleOGL2D.java $
+ *     $HeadURL: https://cscs-repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_12_model_11/test/stupidmodel/observer/TestBugStyleOGL2D.java $
  *     $LastChangedDate: 2011-06-08 08:16:34 +0200 (Sze, 08 jún. 2011) $
  *     $LastChangedRevision: 293 $
  *     $LastChangedBy: richard.legendi@gmail.com $
