@@ -6,7 +6,7 @@
  * Model        : Stupid Model
  * Platform     : RepastS Java
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/StupidModels-1.0.zip (contains all 16 Stupid Model projects)
+ * Download     : http://repast-demos.googlecode.com/files/StupidModels-1.0.1.zip (contains all 16 Stupid Model projects)
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/StupidModel (1-16)
  * Documentation : This Wiki Page
  * Author       : Richard Oliver Legendi
@@ -1888,12 +1888,8 @@ At last, we are ready to create the _Population Abundance Graph_. Create a new c
  Click _Next_.
  
  The data properties wizard step allows you to select which data you want to chart. Click on the
- check box on the left hand side to select the _bugCount_ data.
- 
- You can edit the legend label by double clicking on it. Double click on the label
- and enter _Bug Count_.
- 
- Double click on the color and choose a red color.
+ check box on the left hand side to select the _bugCount_ data. You can edit the legend label by double clicking on it. Double click on the label
+ and enter _Bug Count_. Double click on the color and choose a red color.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_chart_data.png.
    
  Click _Next_.

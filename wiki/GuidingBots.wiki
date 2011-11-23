@@ -6,7 +6,7 @@
  * Model        : Guiding Bots
  * Platform     : RepastS !ReLogo
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/guidingBots-1.0.zip
+ * Download     : http://repast-demos.googlecode.com/files/guidingBots-1.0.1.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/guidingBots
  * Documentation : This Wiki Page
  * Author       : Mudit Raj Gupta
