@@ -1126,7 +1126,6 @@ If everything goes well, the new dataset should be displayed under the _Data Set
  # On the Chart Properties Wizard page, we can set some display properties for the chart itself. Enter Histogram of Bug Sizes as the _Title_, Bug Size as the _X-Axis_, Count as the _Y-Axis_.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_chart_props.png
  # Click _Finish_.
- # The data mapping is complete, press _Finish_ to add the new chart.
 
 If everything goes well, the new chart should be displayed under the _Charts_ section of the _Scenario Tree_ and is ready to use!
 
@@ -1185,27 +1184,33 @@ Each time step, write the _minimum_, _mean_, and _maximum bug size_ on one line 
 === Implementation Notes ===
 This task may be done several ways, e.g., by creating a `save()` action and using the standard Java API like a simple `PrintWriter`, iterating through the list of all agents and evaluating the min, max and mean elements by hand. 
 
-However, Repast Simphony offers a bit friendlier way for these tasks through _Outputters_. To utilize this feature, we have to tasks: create a new _Data Set_ to define the data to save (as we did for the [Histogram_Output Histogram Output] model).
+However, Repast Simphony offers a bit friendlier way for these tasks through _File Sinks_. To utilize this feature, we have to tasks: create a new _Data Set_ to define the data to save (as we did for the [Histogram_Output Histogram Output] model).
 
 ==== Define a New Data Set of File Output ====
-Create a new _Data Set_ called _Data Set of File Output_ over the `Bug` agent class. In the output file, we would like to see the following columns:
+Create a new _Data Set_ called _Data Set of File Output_, but unlike before select _Aggregate_ as the data set type.
+An Aggregate Data Set contains data sources that perform some aggregate operation on individual data values. For example,
+calculating the minimum, maximum and mean value over some collection of data. In our case, we want to record the following columns:
 
  # The current _tick_ of the simulation
  # The minimum size of `Bug` agents
  # The maximum size of `Bug` agents
  # The average size of `Bug` agents
 
-On the _Agent Mappings_ page, add a _Simple Mapping_ for the _current tick_. Creating the min/max/mean for the bug sizes requires a few more clicks :-) Click on _Add_ and add a new _Aggregate Mapping_. Select `getSize()` as `Method` and `Min` as its function. This way Repast Simphony iterates through all `Bug` agents currently assigned to the simulation context when the data set is evaluated, conctructs a collection from all of their `size` value and queries the minimal element.
+In the _Standard Sources_ tab, select the _Tick Count_ source if it is not already selected.
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/create_aggregate_mapping_for_min_bug_size.png
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/tick_count.png
 
-Press _OK_, and name the new column by double-clicking on the _Column Name_ entry and type _Min_.
+On the _Method Data Sources_ tab, click the button _Add_. A new line will appear in the data sources table. Double click on the
+_Agent Type_ column and select _Bug_ from the list. Double click on the _Method_ column and select _getSize_ from the list.
+Double click on the _Aggregate Operation_ column and select _Min_ from the list. Lastly, double click on the _Source Name_ column and enter _Min Size_. Repeat these steps, to create entries for the Min, Max and Mean data sources.
 
-Repeat these steps and add the _Max_ and _Mean_ aggregated values for the new mapping. When finished, the page should look like something similar:
+  https://repast-demos.googlecode.com/svn/wiki/StupidModel/bug_size_stats.png
 
-https://repast-demos.googlecode.com/svn/wiki/StupidModel/constructing_file_outputter_agent_mappings.png
+Defining the data sources in this way will get the bug size from each Bug agent and
+perform the min, max and mean operations on that list of bug sizes. The results of those
+operations will then be recorded.
 
-Press _OK_ then _Finish_ to create the new dataset.
+Press _Next_ then _Finish_ to create the new dataset.
 
 ==== Define a New File Outputter ====
 
