@@ -1099,13 +1099,15 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/simulation_datasets_cha
 
 ==== Data Collection ====
 
-We need a histogram, so first we have to _collect the data_ that will be shown in the chart:
+We need a histogram, so first we have to _collect the data_ that will be shown in the chart. (Note that the following
+screen shots are on OSX. Windows and Linux will have a different look-and-feel but the content is the same.)
 
  # Right-click on _Data Sets_ in the _Scenario Tree_, and select _Add Data Set_ from the menu.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/add_data_set.png
- # The _Data Set Editor_ shows up. On the first page, we can assign a name for the new data set. Type _Data Set of Bug Sizes_ as its id, and select Non-Aggregate as the Data Set Type. Non-Aggregate data sets are used to record a single property for each of object of a certain type. In this case, we want to record the bug size for each Bug agent. If the data were to be formatted in spreadsheet or tabular format, each row would represent a single bug and the column would contain the size for the bugs. Click Next.
+ # The _Data Set Editor_ shows up. On the first page, we can assign a name for the new data set. Type _Data Set of Bug Sizes_ as its id, and select Non-Aggregate as the Data Set Type. Non-Aggregate data sets are used to record a single property for each object of a choosen type. In this case, we want to record the bug size of each Bug agent. If the data were to be formatted in spreadsheet or tabular format, each row would represent a single bug and the column would contain the size for the bugs. Click Next.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/data_set_general.png
- # The next wizard page allows us choose the data source for the data in this data set. A data source is anything that produces data. The standard sources tab includes some standard sources that produces the current tick, random seed and so forth. The method data sources tabl allows us to choose the result of a particular method as a source of data. Click the Method Data Sources tab and choose Bug as the Source Class. Click _Add._ A new line in the table above the buttons should appear. Double click on the method cell of the newly added row. A combo box should should appear. Select the getSize method. By choosing Bug and the getSize method, this Data Set will call getSize on every Bug in the simulation and record the result. Click _Next_.
+ # The next wizard page allows us choose the data source for the data in this data set. A data source is anything that produces data. The standard sources tab includes some standard sources that produce the current tick, random seed and so forth. The method data sources tab
+allows us to choose the result of a particular method as a source of data. Click the Method Data Sources tab and choose Bug as the Source Class. Click _Add._ A new line in the table above the buttons should appear. Double click on the method cell of the newly added row. A combo box should should appear. Select the getSize method. By choosing Bug and the getSize method, this Data Set will call getSize on every Bug in the simulation and record the result. Click _Next_.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/bug_size_data.png
  # If you would like, you can modify the refresh rate of the data collection on this wizard page (like when we created the grid visualization). Since the default settings are perfect for this demo model, click click _Finish_.
 
@@ -1113,16 +1115,16 @@ If everything goes well, the new dataset should be displayed under the _Data Set
 
 ==== Creating a Chart ====
 
- # Right-click on _Charts_ in the _Scenario Tree_, and select _Add Chart_ from the menu.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/adding_a_new_chart.png
- # Select _Statically Sized Histogram_ from the list.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/select_statically_sized_histogram.png
- # Type _Histogram of Bug Sizes_ for the name of the new chart. Also make sure _Data Set of Bug Sizes_ and _Size_ is automatically selected as _Data Set_ and _Value Column_, respectively.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_data_mappings.png
+ # Right-click on _Charts_ in the _Scenario Tree_, and select _Add Histogram Chart_ from the menu.
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/chart_selection.png
+ # Type _Histogram of Bug Sizes_ for the name of the new chart. Also make sure _Data Set of Bug Sizes_ and _Size_ is automatically selected as _Data Set_ and _Data To Histogram_, respectively.
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_general.png
  # Click _Next_.
- # On the _Bin Information_ wizard page we can set the data bins the chart should display. Enter _10_ as _Number of bins_, _0_ as _Minimum Value_ and _10_ to _Maximum Value_, as the problem formulation specified the histogram.
-   https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_bin_information.png
+ # On the _Histogram Properties_ wizard page we can set the various properties of the histogram the chart should display. Enter _10_ as _Bin Count, _Static_ as the _Histogram Type_, _0_ as _Minimum Value_, _10_ to _Maximum Value_, and _Ignore_ for the _Out of Range Handling_.
+   https://repast-demos.googlecode.com/svn/wiki/StupidModel/histogram_bin_selection.png
  # Click _Next_.
+ # On the Chart Properties Wizard page, we can set some display properties for the chart itself. Enter Histogram of Bug Sizes as the _Title_, Bug Size as the _X-Axis_, Count as the _Y-Axis_.
+ # Click _Finish_.
  # The data mapping is complete, press _Finish_ to add the new chart.
 
 If everything goes well, the new chart should be displayed under the _Charts_ section of the _Scenario Tree_ and is ready to use!
