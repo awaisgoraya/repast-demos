@@ -1,8 +1,8 @@
 /*
  * Version info:
- *     $HeadURL: https://cscs-repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_12_model_11/src/stupidmodel/common/SMUtils.java $
- *     $LastChangedDate: 2011-06-08 08:14:10 +0200 (Sze, 08 jún. 2011) $
- *     $LastChangedRevision: 292 $
+ *     $HeadURL: https://cscs-repast-demos.googlecode.com/svn/richard/StupidModel/tags/2011_06_13_model_13/src/stupidmodel/common/SMUtils.java $
+ *     $LastChangedDate: 2011-06-13 12:23:35 +0200 (H, 13 jún. 2011) $
+ *     $LastChangedRevision: 348 $
  *     $LastChangedBy: richard.legendi@gmail.com $
  */
 package stupidmodel.common;
@@ -77,6 +77,27 @@ public final strictfp class SMUtils {
 		}
 
 		return list.get(RandomHelper.nextIntFromTo(0, list.size() - 1));
+	}
+
+	/**
+	 * Returns <code>true</code> or <code>false</code> with the specified
+	 * probability.
+	 * 
+	 * @param threshold
+	 *            the actual threshold level to use
+	 * @return Returns <code>true</code> if a random number chosen from the
+	 *         <code>[0,1)</code> interval is smaller than the parameter;
+	 *         <code>false</code> otherwise
+	 * @since Model 12
+	 */
+	public static boolean prob(final double threshold) {
+		if (threshold < 0.0 || 1.0 < threshold) {
+			throw new IllegalArgumentException(String.format(
+					"Parameter threshold=%f should be in interval [0, 1].",
+					threshold));
+		}
+
+		return (threshold < RandomHelper.nextDouble());
 	}
 
 	// ========================================================================

@@ -158,6 +158,20 @@ public class StupidModelContextBuilder extends DefaultContext<Object> implements
 		for (final Bug bug : bugList) {
 			bug.grow();
 		}
+		
+		// Model 12: Added mortality, scheduled after the bug move and grow
+		for (final Bug bug : bugList) {
+			bug.mortality();
+		}
+
+		// Model 12: [*] ... or when the number of bugs reaches zero.
+		// We have to re-collect all of the bug agents, since during mortality
+		// it may be heavily modified (e.g. several new agents may
+		// born or die)
+		if (0 == getBugList().size()) {
+			System.out.println("All agents dead, terminating simulation.");
+			RunEnvironment.getInstance().endRun();
+		}
 	}
 
 	/**

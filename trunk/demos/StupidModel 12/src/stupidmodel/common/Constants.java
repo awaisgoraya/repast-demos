@@ -8,6 +8,7 @@
 package stupidmodel.common;
 
 import stupidmodel.StupidModelContextBuilder;
+import stupidmodel.agents.Bug;
 
 /**
  * Dedicated class to store some model-specific constant values (e.g. bug vision
@@ -80,6 +81,23 @@ public final class Constants {
 	 * and <code>d2</code> declared identical if {@literal |d1 - d2| < DELTA}
 	 */
 	public static final double DELTA = 1e-6;
+	
+	/**
+	 * The specified number of children a spawning {@link Bug} agent should
+	 * create during reproduction.
+	 * 
+	 * @since Model 12
+	 */
+	public static final int BUG_REPRODUCTION_RATE = 5;
+
+	/**
+	 * Default vision range of a bug to find empty cells around when spawning
+	 * descendants.
+	 * 
+	 * @since Model 12
+	 */
+	public static final int BUG_REPRODUCTION_RANGE = 3;
+
 
 	// ========================================================================
 
