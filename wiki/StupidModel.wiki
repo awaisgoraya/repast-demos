@@ -1882,21 +1882,28 @@ https://repast-demos.googlecode.com/svn/wiki/StupidModel/data_set_of_population_
 ==== Population Abundance Graph ====
 At last, we are ready to create the _Population Abundance Graph_. Create a new chart by right-clicking on _Charts_ in the _Scenario Tree_, and select _Add Time Series Chart.
 
- # Enter Population Abundance as the Name and Select _Data Set of Population Abundance_ as the Data Set.
+ Enter Population Abundance as the Name and Select _Data Set of Population Abundance_ as the Data Set.
+ 
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_chart.png
- # Click _Next_.
- # The data properties wizard step allows you to select which data you want to chart. Click on the
+ Click _Next_.
+ 
+ The data properties wizard step allows you to select which data you want to chart. Click on the
  check box on the left hand side to select the _bugCount_ data.
- # You can edit the legend label by double clicking on it. Double click on the label
+ 
+ You can edit the legend label by double clicking on it. Double click on the label
  and enter _Bug Count_.
- # Double click on the color and choose a red color.
+ 
+ Double click on the color and choose a red color.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_chart_data.png.
- # Click _Next_.
- # On this wizard step, you can enter some properties for the chart itself. Enter
+   
+ Click _Next_.
+ 
+ On this wizard step, you can enter some properties for the chart itself. Enter
  _Population Abundance_ as the _Title_, _Tick_ as the _X-Axis_ and _Bug Count_ as the
  _Y-Axis_. Feel free to investigate the remaining chart properties or leave them as is.
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_chart_props.png
- # The data mapping for the new chart is complete, click _Finish_ to add the it to the simulation.
+   
+ The data mapping for the new chart is complete, click _Finish_ to add the it to the simulation.
 
 The _Population Abundance_ chart should be displayed under the available _Charts_ in the _Scenario Tree_:
 
