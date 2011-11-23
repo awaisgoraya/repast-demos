@@ -1861,15 +1861,18 @@ Start the simulation. We add the new data set as we did it previously through th
     https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_general.png
     
  Click _Next_.
+ 
  Select the the _Method Data Sources_ tab. Although we are not going to use a particular method as a data source here, the
  _Method Data Sources_ tab allows us to select _Count_ as an aggregate operation. The _Count_ operation will return the current
  number of the specified Agent Type currently in the simulation.
+ 
  Click the _Add_ button. Select _Bug_ as the _Agent Type_ by double clicking on the _Agent Type_ cell. Select _Count_ as
  the _Aggregate Operation_ and enter _bugCount_ as the _Source Name_
  
    https://repast-demos.googlecode.com/svn/wiki/StupidModel/pa_data.png
    
  Click _Next_.
+ 
  Since we do not want to change the update frequency of the data set, click _Finish_ on the last wizard page.
 
 The new data set should be displayed under the available _Data Sets_ in the _Scenario Tree_:
