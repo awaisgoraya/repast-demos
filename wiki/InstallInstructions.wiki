@@ -8,10 +8,10 @@ To install a demo model, click on the download link in the summary section on th
 
 Once that has finished downloading,
 
-# Open eclipse, if it is not already open.
-# From the file menu, click on Import
-# Under the General section, click on "Existing Projects into Workspace", then click Next
-# Click the "Select archive file" radio button, and browse to the downloaded zip file.
-# Click Finish
+ # Open eclipse, if it is not already open.
+ # From the file menu, click on Import
+ # Under the General section, click on "Existing Projects into Workspace", then click Next
+ # Click the "Select archive file" radio button, and browse to the downloaded zip file.
+ # Click Finish
 
 This will import the demo model into your current workspace. Once it has been imported, you can then run it from within Eclipse, as you would any other Repast model.
