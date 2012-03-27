@@ -1,5 +1,5 @@
 #summary TableOfContents
-
+  * [InstallInstructions Install Instructions]
   * Models
     * [Ant]
     * [AreaCoverage Area Coverage]
