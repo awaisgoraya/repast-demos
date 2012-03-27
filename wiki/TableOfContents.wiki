@@ -1,4 +1,4 @@
-#summary Demo Models
+#summary TableOfContents
 
   * Models
     * [Ant]
