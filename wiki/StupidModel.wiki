@@ -6,7 +6,7 @@
  * Model        : Stupid Model
  * Platform     : RepastS Java
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/StupidModels-1.0.1.zip (contains all 16 Stupid Model projects)
+ * Download     : http://repast-demos.googlecode.com/files/StupidModel-1.0.1.zip (contains all 16 Stupid Model projects)
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/StupidModel (1-16)
  * Documentation : This Wiki Page
  * Author       : Richard Oliver Legendi
