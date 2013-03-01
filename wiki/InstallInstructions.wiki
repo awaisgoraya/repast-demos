@@ -4,7 +4,7 @@
 = Installing a Demo Model =
 To install a demo model, click on the download link in the summary section on that model's page. For example, the summary section of the [AreaCoverage Area Coverage] model contains a download link that looks like:
 
-* Download     : http://repast-demos.googlecode.com/files/AreaCoverage-1.0.1.zip
+* Download     : http://repast-demos.googlecode.com/files/areaCoverage-1.0.1.zip
 
 Once that has finished downloading,
 
