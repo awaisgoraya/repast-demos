@@ -6,7 +6,7 @@
  * Model        : Area Coverage
  * Platform     : RepastS !ReLogo
  * Version(s)	: Repast Simphony 2.0
- * Download     : http://repast-demos.googlecode.com/files/AreaCoverage-1.0.1.zip
+ * Download     : http://repast-demos.googlecode.com/files/areaCoverage-1.0.1.zip
  * SVN Source  : http://repast-demos.googlecode.com/svn/trunk/demos/AreaCoverage
  * Documentation : This Wiki Page
  * Author       : Mudit Raj Gupta
@@ -303,5 +303,3 @@ Application specific graphs, outputters and plug in can be incorporated in the g
 * http://en.wikipedia.org/wiki/Swarm_robotics
 
 * http://www.swarmrobotic.com/
-
-
